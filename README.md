@@ -54,4 +54,5 @@ chooses the candidate l. The voting vector is encrypted to the vector (ci,1, ci,
 the homomorphic property allows finding the encrypted tally of option l by Vi=1ci,l; where
 V is the number of voters.
 
-
+#Database diagram - Drafts Uploaded
+#Wire-frames - Drafts Uploaded
