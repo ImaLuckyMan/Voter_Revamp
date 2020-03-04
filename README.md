@@ -4,7 +4,7 @@ My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp
 # Concept Description:
 Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
 
-Agenda:
+# Agenda:
 Why we need a new system
 My proposal
 Improvements made to current systems
@@ -12,6 +12,7 @@ How it would be implemented
 Recap
 Questions
 
+# Why its needed:
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
 Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. 
 States have been accused of cheating and recounts have been requested. 
@@ -20,6 +21,7 @@ I do not believe our forefathers would agree with the way we currently perform o
 
 I don’t believe we should vote for our president by how much money you have, their popularity, how well they articulate themselves, their sex, or the color of their skin. We should not vote for the candidate we hear the most about, just because they were the ones that could afford the commercials and a touring campaign.
 
+# My Proposal:
 Instead, I propose we go back to the day where we voted for the candidate that had the most in common with the ideals most common to ourselves. I would like to create a new secure electronic voting process that would verify voter credentials so that voters could not cheat and use dead people or children’s identity in order to cast votes for their preferred candidate. A universal system that anyone needing to vote, no matter where they were located on earth, including military members serving overseas are securely verified. 
 
 Most importantly, I would change the way we vote for our candidates by running a national poll prior to our election where all citizens could vote on the biggest issues affecting our country. Whether it is abortion, international trade agreements, border wall, immigration, National Debt, Medicare, etc. The top say 15 items will then make it to the candidate’s ballot. Each Presidential candidate will cast an official vote for their stand on each relevant issue.
@@ -28,6 +30,7 @@ Then come the election, a blind, randomized list will be displayed that accurate
 
 After the votes are tallied and a President elected, there is a Record on File of how the Candide voted holding them responsible for their actions without them saying, Well, I never said that, and as soon as they enter office, they immediately know the things most troubling the nation. 
 
+# How this improves upon the current System:
 There are other electronic voting systems, but not one that changes the way we look at each candidate.
 
 This would require a database of authorized voters with locations and rule sets to ensure they are registered. Security and authentication precautions, polling databases that list up to date relevant issues, backup systems to ensure availability and prevent tampering, Input and Output engines, as well as the ability to accurately count and report submissions. 
