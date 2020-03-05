@@ -12,12 +12,10 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 5. Recap
 6. Possible Cryptography and Encryption Methods
 
-# Why its needed:
+# Why we need it:
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
-Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. 
-States have been accused of cheating and recounts have been requested. 
-Outside countries have been accused of messing with our voting process. 
-I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.
+Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. 
+Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.
 
 I don’t believe we should vote for our president by how much money you have, their popularity, how well they articulate themselves, their sex, or the color of their skin. We should not vote for the candidate we hear the most about, just because they were the ones that could afford the commercials and a touring campaign.
 
@@ -39,8 +37,7 @@ First and formost we would have to work on voter trust in the system. Voters do 
 # Cryptography - This may be updated as I recently learned that Microsoft came out with VoterGuard this year.
 Standard cryptographic techniques are used to improve security. The industry-standard public key cryptography (PKC) is used in electronic voting terminals for achieving authentication and confidentiality. Public key cryptography relies on cryptographic key pairs.
 
-A key pair for System X KX consists of private key KX and public key KX+. The private key is only known to X; whereas the public key must be made available to the other systems communicating with X. When X encrypts (signs) message m using its private key KX (m) and sends it, the receiver validates that X is the source of the encrypted message when it successfully decrypts KX (m) using the public key to retrieve the original message KX +(KX(m)) = m. When a message is encrypted using the public key KX +(m), the confidentiality is achieved as only the holder of the private key can decrypt it KX (KX +(m)) = m. Using 2048-bit RSA encryption keys provides security level sufficient for this system at the current state of the art.
-We also use digital signatures for authentication and to protect data integrity. A signed message is a message along with its encrypted digest m + KX (H(m)). 
+A key pair for System X KX consists of private key KX and public key KX+. The private key is only known to X; whereas the public key must be made available to the other systems communicating with X. When X encrypts (signs) message m using its private key KX (m) and sends it, the receiver validates that X is the source of the encrypted message when it successfully decrypts KX (m) using the public key to retrieve the original message KX +(KX(m)) = m. When a message is encrypted using the public key KX +(m), the confidentiality is achieved as only the holder of the private key can decrypt it KX (KX +(m)) = m. Using 2048-bit RSA encryption keys provides security level sufficient for this system at the current state of the art. We also use digital signatures for authentication and to protect data integrity. A signed message is a message along with its encrypted digest m + KX (H(m)). 
 
 Homomorphic Cryptography
 I would probably use Paillier cryptosystem for its useful homomorphic properties in preserving the privacy of votes. Although, there are other homomorphic cryptosystems such as ElGamal and Goldwasser-Micali , Paillier is better suited for e-voting and has mature solutions for distributed key generation, threshold decryption, and zero-knowledge proofs, as detailed below. Particularly, this system allows finding the sum of encrypted votes by multiplying them. The votes and the tally remain encrypted, thus preserving the privacy of the voters: KV+(m1 + m2) = KV+(m1)  KV+(m2).
