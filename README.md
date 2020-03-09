@@ -5,14 +5,14 @@ My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp
 Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, Liberal, Independant, or Other, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
 
 # Agenda:
-<a href="#1">1. Why we need a new system</a>
-<a href="#2">2. My Proposal</a>
-<a href="#3">3. Improvements Made to the Current System</a>
-<a href="#4">4. How it would be Implemented</a>
-<a href="#5">5. Recap</a>
-<a href="#6">6. Cryptography and Encryption Methods</a>
-<a href="#7">7. Installation </a>
-<a href="#8">8. Usage </a>
+<a href="#1">1. Why we need a new system</a></br>
+<a href="#2">2. My Proposal</a></br>
+<a href="#3">3. Improvements Made to the Current System</a></br>
+<a href="#4">4. How it would be Implemented</a></br>
+<a href="#5">5. Recap</a></br>
+<a href="#6">6. Cryptography and Encryption Methods</a></br>
+<a href="#7">7. Installation </a></br>
+<a href="#8">8. Usage </a></br>
 
 <h1 id="1">Why we need a new system</h2>
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
@@ -36,7 +36,7 @@ There are other electronic voting systems, but not one that changes the way we l
 <h1 id="4">Requirements to be implemented</h2>
 First and formost we would have to work on voter trust in the system. Voters do not necessarily trust the current system due to curruption, and this idea does not allow a voter to see the name of a candidate, which makes it even more difficult. Impressing upon the security and record keeping of the system will help to combat this issue. This system would require a database of authorized voters with locations; a future installment may connect to the national voting database registrar, but in the mean time I will be creating a SQL database for proof of concept. Rule sets will be implemented to ensure they are legal registered voters authorized to cast and submit a vote. Security and authentication precautions and encryption have been considered and will initially just be a username and password located on a remote server. This will include polling databases that list up to date relevant issues from registered citizens that will also be created in SQL and stored in a remote location on the cloud for universal access. Backup systems will be implemented to ensure availability and prevent tampering. Input and Output engines, as well as the ability to accurately count and report submissions. Webpages will be created using ASP.NET Core MVC and hosted page editors that will connect to my SQL Server Databases and framework.
 
-<h1 id="5">Cryptography: This may be updated as I recently learned that Microsoft came out with VoterGuard this year.</h2>
+<h1 id="6">Cryptography: This may be updated as I recently learned that Microsoft came out with VoterGuard this year.</h2>
 Standard cryptographic techniques are used to improve security. The industry-standard public key cryptography (PKC) is used in electronic voting terminals for achieving authentication and confidentiality. Public key cryptography relies on cryptographic key pairs.
 
 A key pair for System X KX consists of private key KX and public key KX+. The private key is only known to X; whereas the public key must be made available to the other systems communicating with X. When X encrypts (signs) message m using its private key KX (m) and sends it, the receiver validates that X is the source of the encrypted message when it successfully decrypts KX (m) using the public key to retrieve the original message KX +(KX(m)) = m. When a message is encrypted using the public key KX +(m), the confidentiality is achieved as only the holder of the private key can decrypt it KX (KX +(m)) = m. Using 2048-bit RSA encryption keys provides security level sufficient for this system at the current state of the art. We also use digital signatures for authentication and to protect data integrity. A signed message is a message along with its encrypted digest m + KX (H(m)). 
