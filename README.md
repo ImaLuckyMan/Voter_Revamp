@@ -5,6 +5,7 @@ My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp
 Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, Liberal, Independant, or Other, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
 
 # Agenda:
+
 1. Why we need a new system
 2. My proposal
 3. Improvements made to current systems
@@ -13,7 +14,7 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 6. Possible Cryptography and Encryption Methods
 
 
-1. [Why we need a new system]
+# Why we need a new system
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
 Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. 
 Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.
