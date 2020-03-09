@@ -1,5 +1,4 @@
 # Voter Revamp 2020 
->-<hr>
 My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp the way we vote. I can not change the National Election but this can be used for College, High School, and Business elections and necessity is the mother of invention, maybe it will one day influence change at a higher level.
 
 # Concept Description:
@@ -12,17 +11,15 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 4. How it would be implemented
 5. Recap
 6. Possible Cryptography and Encryption Methods
-  <a name="team-members"></a>Team Members
-  
 
-#1 Why we need a new system
+# Why we need a new system
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
 Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. 
 Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.
 
 I don’t believe we should vote for our president by how much money you have, their popularity, how well they articulate themselves, their sex, or the color of their skin. We should not vote for the candidate we hear the most about, just because they were the ones that could afford the commercials and a touring campaign.
 
-#2. My Proposal
+# My Proposal
 Instead, I propose we go back to the day where we voted for the candidate that had the most in common with the ideals most common to ourselves. I would like to create a new secure electronic voting process that would verify voter credentials so that voters could not cheat and use dead people or children’s identity in order to cast votes for their preferred candidate. A universal system that anyone needing to vote, no matter where they were located on earth, including military members serving overseas are securely verified. 
 
 Most importantly, I would change the way we vote for our candidates by running a national poll prior to our election where all citizens could vote on the biggest issues affecting our country. Whether it is abortion, international trade agreements, border wall, immigration, National Debt, Medicare, etc. The top say 15 items will then make it to the candidate’s ballot. Each Presidential candidate will cast an official vote for their stand on each relevant issue.
