@@ -12,7 +12,7 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 5. Recap
 6. Possible Cryptography and Encryption Methods
 
-# Why we need a new system
+Why we need a new system
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
 Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. 
 Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.
