@@ -4,7 +4,7 @@ My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp
 # Concept Description:
 Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, Liberal, Independant, or Other, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
 
-# Agenda:
+# Index:
 <a href="#1">1. Why we need a new system</a></br>
 <a href="#2">2. My Proposal</a></br>
 <a href="#3">3. Improvements Made to the Current System</a></br>
@@ -13,6 +13,7 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 <a href="#6">6. Cryptography and Encryption Methods</a></br>
 <a href="#7">7. Installation </a></br>
 <a href="#8">8. Usage </a></br>
+<a href="#9">9. Prototype </a></br>
 
 <h1 id="1">Why we need a new system</h1>
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
@@ -50,6 +51,8 @@ No installation is required. Site will be published via WWW. You will only requi
 
 <h1 id="8">Usage</h1>
 Authorized registered Voters will be able to access websites allowing them to list issues affecting the Nation. The site and associated databases will order and reply with the top 15 issues for a candidate to respond with their stand on those issues. Then when a voter goes to vote they will be presented with each candidates views on each of the issues and can vote for the delegate based solely on where they stand on the isseues without knowing which candidate voted which way to prevent voter prejudism due to race, ethenticity, success, sex, religion, etiquette, political gain, charisma and social economics, etc. </br>
+
+<h1 id="9">Prototype</h1>
 
 # Contributions: None
 # License: Located in Wiki
