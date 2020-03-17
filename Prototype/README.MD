@@ -9,8 +9,8 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
-<a href="#5">5. Recap</a></br>
-<a href="#6">6. Cryptography and Encryption Methods</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Voter%20Registration.JPG">6. Voter Registrations</a></br>
 <a href="#7">7. Installation </a></br>
 <a href="#8">8. Usage </a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG">9. Test Case </a></br>
