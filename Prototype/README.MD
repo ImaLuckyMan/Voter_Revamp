@@ -13,5 +13,5 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Voter%20Registration%20Form.JPG">6. Voter Registrations</a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Example%20Ballot.pptx?raw=true">7. Ballot </a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
-<a href="https://www.iwannavote.com">9. Issues Site </a></br>
-<a href="https://www.ivote.online">8. Voter Site </a></br>
+<a href="http://www.iwannavote.com">9. Issues Site </a></br>
+<a href="http://www.ivote.online">10. Voter Site </a></br>
