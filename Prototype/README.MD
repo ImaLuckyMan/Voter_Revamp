@@ -6,7 +6,7 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 
 # Requirements:
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/srs.doc?raw=true">1. System Requirements Documents</a></br>
-<a href="#2">2. WireFrame Diagrams</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
 <a href="#3">3. Improvements Made to the Current System</a></br>
 <a href="#4">4. How it would be Implemented</a></br>
 <a href="#5">5. Recap</a></br>
