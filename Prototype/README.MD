@@ -13,4 +13,4 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 <a href="#6">6. Cryptography and Encryption Methods</a></br>
 <a href="#7">7. Installation </a></br>
 <a href="#8">8. Usage </a></br>
-<a href="#9">9. Prototype </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG">9. Test Case </a></br>
