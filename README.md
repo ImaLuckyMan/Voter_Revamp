@@ -52,7 +52,7 @@ No installation is required. Site will be published via WWW. You will only requi
 <h1 id="8">Usage</h1>
 Authorized registered Voters will be able to access websites allowing them to list issues affecting the Nation. The site and associated databases will order and reply with the top 15 issues for a candidate to respond with their stand on those issues. Then when a voter goes to vote they will be presented with each candidates views on each of the issues and can vote for the delegate based solely on where they stand on the isseues without knowing which candidate voted which way to prevent voter prejudism due to race, ethenticity, success, sex, religion, etiquette, political gain, charisma and social economics, etc. </br>
 
-<h1 id="9"><a href="https://github.com/ImaLuckyMan/Voter_Revamp/Prototype/">9. Prototype </a></br></h1>
+<h1 id="9"><a href="https://github.com/ImaLuckyMan/Voter_Revamp/tree/master/Prototype">Prototype File </a></br></h1>
 
 # Contributions: None
 # License: Located in Wiki
