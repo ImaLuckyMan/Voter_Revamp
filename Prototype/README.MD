@@ -5,7 +5,7 @@ My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp
 Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, Liberal, Independant, or Other, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
 
 # Requirements:
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/srs.doc</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/srs.doc?raw=true</a></br>
 <a href="#2">2. WireFrame Diagrams</a></br>
 <a href="#3">3. Improvements Made to the Current System</a></br>
 <a href="#4">4. How it would be Implemented</a></br>
