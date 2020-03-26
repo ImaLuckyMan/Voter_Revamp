@@ -15,6 +15,18 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 <a href="#8">8. Usage </a></br>
 <a href="#9">9. Prototype </a></br>
 
+# Project Files:
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/srs.doc?raw=true">1. Software Requirements Specifications Document</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Voter%20Registration%20Form.JPG">6. Voter Registrations</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Example%20Ballot.pptx?raw=true">7. Ballot </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
+<a href="http://www.iwannavote.net">9. Issues Site </a></br>
+<a href="http://www.ivote.online">10. Voter Site </a></br>
+
 <h1 id="1">Why we need a new system</h1>
 Our election process in the United States has been deemed corrupt, unsecure, and outdated. 
 Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.</br>
