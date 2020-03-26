@@ -4,5 +4,26 @@ My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp
 # Concept Description:
 Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, Liberal, Independant, or Other, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
 
-# Project Files:
+# IPR
+# Scope: Brief summary description of the domain and top-level user requirements for your product
 
+# Requirements:	Hierarchical list of first (user), second (system), and third (software) level requirements
+
+# Solution Design	(optional) Map (User) Stories to (Solution) Use Cases
+
+# Data Design: Database design including the entities, attributes, relationships & data types may be ERD, may be class diagram
+
+# UI Design: Wireframe details
+
+# Project Plan	Product Backlog Items (PBIs) and component design. 
+# Indicate which items are Complete, Work-in-Progress (WIP), Not Started, Backlog
+
+# Project Demo:	Screen Shots
+
+# Recent accomplishments: 
+
+# Design changes:
+
+# Next steps:
+
+# Test Report:	Requirements Traceability Matrix (RTM) Every requirement should map to a planned test
