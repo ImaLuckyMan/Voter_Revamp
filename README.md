@@ -70,6 +70,6 @@ Authorized registered Voters will be able to access websites allowing them to li
 # License: Located in Wiki 
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/wiki"> Link to License Agreement </a>
 # Database diagrams - Drafts Uploaded to Design Documents
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/wiki"> Link to Design Documents </a>
+<a href="Prototype/README.MD"> Link to Design Documents </a>
 # Wire-frames - Drafts Uploaded to Design Documents
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/wiki"> Link to Design Documents </a>
+<a href="Prototype/README.MD"> Link to Design Documents </a>
