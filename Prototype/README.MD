@@ -121,19 +121,38 @@ Then are presented with each candidates views on top 15 political issues affecti
 
 <h1 id="4">4. Data Design: Database design including the entities, attributes, relationships & data types may be ERD, may be class diagram </h1>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
-
-![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG)
-![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.JPG)
-![Example Ballot](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx)
-![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Registrar%20Database.JPG)
-![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote%20Tallying%20Process.JPG)
-![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png)
-![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Enrollment.JPG)
-![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration&20Form.JPG)
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx> Example Ballot </a></br>
 ![Voter Registrration and Ballots](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20and%20Ballots.pptx)
-![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png)
-![Voting Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voting%20Process.png)
-![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png)
+
+# Ballot Management
+![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG=20x20) </br>
+
+# Candidate Registration
+![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.JPG=20x20) </br>
+
+# Registrar Database
+![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Registrar%20Database.JPG=20x20)</br>
+
+# Vote Tallying Process
+![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote%20Tallying%20Process.JPG=20x20)</br>
+
+# Vote Flow Chart
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png=20x20)</br>
+
+# Voter Enrollment
+![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Enrollment.JPG=20x20)</br>
+
+# Voter Registration Form
+![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration&20Form.JPG=20x20)</br>
+
+# Voter and Candidate Registration Flow Chart
+![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png=20x20)</br>
+
+<h2> Voting Process </h2>
+![Voting Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voting%20Process.png=20x20)</br>
+
+<h2> World Issues Flow Chart <h2>
+![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png=20x20)</br>
 
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
