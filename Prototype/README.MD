@@ -6,47 +6,94 @@ Before we begin, I want to say that I am not here to offend anyone in any way…
 
 Electronic voting provides accuracy and efficiency to the electoral processes. World democracies would benefit from a secure e-voting system not only to improve voter participation and trust but also to prevent electoral fraud. However, current e-voting systems are complex and have security weaknesses. In this paper, I describe a secure e-voting system for national and local elections to include college and highschool presidential elections or anyone that requires a secure, fair, voting process free from prejudism and voter fraud. No longer will people be able to choose their candidates by race, sex, money, charisma, or skin color. This system satisfies the important requirements of an e-voting system through state-of-the-art technologies and secure processes. I-Vote is a way to Re-Vamp the voting process in 2020. It will eventually rely on homomorphic cryptography, zero-knowledge proofs, biometrics, smartcards, open-source software, and secure computers for securely and efficiently implementing the system processes over the various stages of the electoral process, without relying on kiosks, volunteers, or geographic polling stations. I outline the main conclusions of the pilot implementations of I-Vote and tested the main technologies and processes used. We also explain how the used technologies and processes achieve the system requirement. In conclusion, I recommend adopting I-Vote ReVamp 2020 for its security, flexibility, economic, and scalability features; but most importantly because it provides a vote based on a candidates political views and not on a candidates, race, color, sex, nationality, charisma, or success.
 
-# Scope: Brief summary description of the domain and top-level user requirements for your product
+# Index:
+<a href="#I">I. Scope</a></br>
+<a href="#II">II. Requirements</a></br>
+<a href="#II.A">II.A User Requirements</a></br>
+<a href="#II.B">II.B System Requirements</a></br>
+<a href="#II.C">II.C Software Requirements</a></br>
+<a href="#III">III. Solution Design</a></br>
+<a href="#3.a">3.a User Stories</a></br>
+<a href="#3.a.1">3.a.1 Legal Registered Voter Stories</a></br>
+<a href="#3.a.2">3.a.2 Candidate Stories</a></br>
+<a href="#3.b">3.b Use Cases</a></br>
+<a href="#4">4. Data Design</a></br>
+<a href="#5">5. UI Design</a></br>
+<a href="#6">6. Project Plan</a></br>
+<a href="#7">7. Project Demo </a></br>
+<a href="#8">8. Recent Accomplishments </a></br>
+<a href="#9">9. Design Changes </a></br>
+<a href="#10">10. Next Steps </a></br>
+<a href="#11">11. Test Report </a></br>
+<a href="#12">12. Prototype </a></br>
 
-# Requirements:
-A. User Level Requirements
-1. Non-Discriminatory: The principle of non-discrimination seeks “to guarantee that human rights are exercised without discrimination of any kind based on race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status such as disability, age, marital and family status, sexual orientation and gender identity, health status, place of residence, economic and social situation”.
+# Project Files:
 
-2. World-Wide Availability: So that registered authorized voters overseas can accurately and securely submit their vote.
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Voter%20Registration%20Form.JPG">6. Voter Registrations</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Example%20Ballot.pptx?raw=true">7. Ballot </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
+<a href="http://www.iwannavote.net">9. Issues Site </a></br>
+<a href="http://www.ivote.online">10. Voter Site </a></br>
 
-3. Accuracy: The i-vote system does not allow altering or deleting a validated vote and
+<h1 id="I"> I. Scope: Brief summary description of the domain and top-level user requirements for your product </h1>
+Our election process in the United States has been deemed corrupt, unsecure, and outdated. Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.I don’t believe we should vote for our president by how much money you have, their popularity, how well they articulate themselves, their sex, or the color of their skin. We should not vote for the candidate we hear the most about, just because they were the ones that could afford the commercials and a touring campaign.Instead, I propose we go back to the day where we voted for the candidate that had the most in common with the ideals most common to ourselves. I would like to create a new secure electronic voting process that would verify voter credentials so that voters could not cheat and use dead people or children’s identity in order to cast votes for their preferred candidate. A universal system that anyone needing to vote, no matter where they were located on earth, including military members serving overseas are securely verified. Most importantly, I would change the way we vote for our candidates by running a national poll prior to our election where all citizens could vote on the biggest issues affecting our country. Whether it is abortion, international trade agreements, border wall, immigration, National Debt, Medicare, etc. The top say 15 items will then make it to the candidate’s ballot. Each Presidential candidate will cast an official vote for their stand on each relevant issue. After the votes are tallied and a President elected, there is a Record on File of how the Candide voted holding them responsible for their actions without them saying, Well, I never said that, and as soon as they enter office, they immediately know the things most troubling the nation. There are other electronic voting systems, but not one that changes the way we look at each candidate.
+
+<h1 id="II"> II. Requirements: </h1>
+<h2 id="II.A"> II.A User Level Requirements </h2>
+<h3> 1. Non-Discriminatory: </h3>
+The principle of non-discrimination seeks “to guarantee that human rights are exercised without discrimination of any kind based on race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status such as disability, age, marital and family status, sexual orientation and gender identity, health status, place of residence, economic and social situation”.
+
+<h3> 2. World-Wide Availability:</h3>
+So that registered authorized voters overseas can accurately and securely submit their vote.
+
+<h3> 3. Accuracy: </h3>
+The i-vote system does not allow altering or deleting a validated vote and
 does not count any ineligible vote in the final tally.
 
-4. Democracy: It allows only eligible voters to vote and allows every voter to vote only
+<h3> 4. Democracy: </h3>
+It allows only eligible voters to vote and allows every voter to vote only
 once.
 
-5. Privacy: It does not disclose the votes of the respective voters and does not allow any
+<h3> 5. Privacy: </h3>
+It does not disclose the votes of the respective voters and does not allow any
 voter to prove how he/she voted. This is a fundamental requirement to avoid voter intimidation and vote selling.
 
-6. Verifiability: It allows anyone to verify that all votes were correctly counted. And in
+<h3> 6. Verifiability: </h3>
+It allows anyone to verify that all votes were correctly counted. And in
 case of electoral disputes, it provides means for rechecking the results.
 
-7. Security: It always satisfies the accuracy, democracy, and privacy requirements and
+<h3> 7. Security: </h3>
+It always satisfies the accuracy, democracy, and privacy requirements and
 does not allow inside or outside attackers to undermine these requirements. Additionally, it satisfies reliability, availability, and data integrity requirements.
 
-8. Acceptance: It is accepted by voters and candidates who believe that the system is fair
+<h3> 8. Acceptance: </h3>
+It is accepted by voters and candidates who believe that the system is fair
 and they trust its results. This requirement depends on all above requirements.
 
-9. Flexibility: It can carry out various types of elections for parliaments, municipalities,
+<h3> 9. Flexibility: </h3>
+It can carry out various types of elections for parliaments, municipalities,
 student boards, plebiscites, referendums, etc. Flexibility provides economic advantage
 when the same system is used to conduct multiple electoral processes in a certain country or city. A necessary aspect of the flexibility, which is needed for democracy, is the universality in allowing any eligible voter to vote irrespective of her native language, special needs, or literacy level. One more important aspect is the mobility in allowing the voter to vote in any voting center that is most convenient to her.
 
-10. Cost effectiveness: It uses economic software and hardware components. This requirement is particularly important for large-scale elections.
+<h3> 10. Cost effectiveness: </h3>
+It uses economic software and hardware components. This requirement is particularly important for large-scale elections.
 
-11. Scalability: It efficiently enables carrying out various sizes of elections. The election
+<h3> 11. Scalability: </h3>
+It efficiently enables carrying out various sizes of elections. The election
 size can be small (up to few hundred voters, e.g., electing the speaker of a parliament),
 medium (thousands of voters, e.g., electing the city board), or large (millions of voters,
 e.g., general parliamentary elections). When the system is used in various election sizes, it achieves flexibility, provides better return on investment, and facilitates productizing it in mass quantities.
 
-B. System Requirements 
+<h2 id="II.B">II.B. System Requirements</h2>
+This would require a database of authorized voters with locations and rule sets to ensure they are registered. Security and authentication precautions, polling databases that list up to date relevant issues, backup systems to ensure availability and prevent tampering, Input and Output engines, as well as the ability to accurately count and report submissions. 
 
-C. Software Requirements
-
+<h2 id="II.C">II.C. Software Requirements </h2>
+Smartphone, terminal, pc, tablet, or any device that can access the world wide web over Secure-HTTP via a Browser running the latest patches and security updates. </br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/srs.doc?raw=true">1. Software Requirements Specifications Document Link </a></br>
 
 # Solution Design: User Stories and Use Cases
 1.  User Stories
