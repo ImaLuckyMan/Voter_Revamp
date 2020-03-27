@@ -1,4 +1,4 @@
-# Prototype of Voter Revamp 2020  <aside><img src="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Vote2.jpg" style="width:100px; height:100px;"></aside>
+# Prototype of Voter Revamp 2020  <aside><img src="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote2.jpg" style="width:100px; height:100px;"></aside>
 My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp the way we vote. I can not change the National Election but this can be used for College, High School, and Business elections and necessity is the mother of invention, maybe it will one day influence change at a higher level.
 
 # Concept Description:
@@ -81,7 +81,7 @@ This would require a database of authorized voters with locations and rule sets 
 
 <h2 id="2c"> 2.C. Software Requirements </h2>
 Smartphone, terminal, pc, tablet, or any device that can access the world wide web over Secure-HTTP via a Browser running the latest patches and security updates. </br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/srs.doc?raw=true">1. Software Requirements Specifications Document Link </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/srs.doc">1. Software Requirements Specifications Document Link </a></br>
 
 <h1 id="3"># Solution Design: User Stories and Use Cases</h1>
 <h2> User Stories </h2>
@@ -117,20 +117,20 @@ Given an online electronic voting system, a database of current world issues, an
 When a voter goes to submit their vote
 Then are presented with each candidates views on top 15 political issues affecting the country, without knowing which candidate submitted which set of views.
 
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
 
 <h1 id="4">4. Data Design: Database design including the entities, attributes, relationships & data types may be ERD, may be class diagram </h1>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
 
 ![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG)
 
 
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Voter%20Registration%20Form.JPG">6. Voter Registrations</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Example%20Ballot.pptx?raw=true">7. Ballot </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents//Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20Form.JPG">6. Voter Registrations</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx">7. Ballot </a></br>
 
 <h1 id="6">6. Project Plan:	Product Backlog Items (PBIs) and component design. </h1>
 # Complete 
@@ -190,6 +190,6 @@ Licensing costs are reduced by using free software and operating systems. S-Vote
 I-Vote achieves scalability through using a building block (voting kiosk) that can be deployed in various numbers. The major challenge is to provide enough voting kiosks that allow all voters to cast their votes within the limited election period. We estimate that one voting kiosk can serve from 500 to 1,000 voters in a day. This through put can only be achieved through clear and streamlined kiosk user interface. Depending on the electorate size, the election committee has to provide a suitable number of voting
 kiosks distributed over voting centers. Aggregating results of a large election in the central register can be sped up through electronically transferring the ballots exported from the kiosks. There is no need to physically deliver the removable storage containing the ballots package exported from the kiosk because the ballots are encrypted and this package is signed. The large computing load of verifying vote validity and authenticity in large countries is manageable and should be handled through parallel processing.
 
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
 
 <h1 id="12">Prototype</h1>
