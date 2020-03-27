@@ -120,7 +120,7 @@ Then are presented with each candidates views on top 15 political issues affecti
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
 
 <h1 id="4">4. Data Design: Database design including the entities, attributes, relationships & data types may be ERD, may be class diagram </h1>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
+![Flow Chart]("https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Flow%20Chart%20Draft.pdf")3. Flow Chart</br>
 
 ![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG)
 
