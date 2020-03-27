@@ -123,7 +123,17 @@ Then are presented with each candidates views on top 15 political issues affecti
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
 
 ![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG)
-
+![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.JPG)
+![Example Ballot](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx)
+![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Registrar%20Database.JPG)
+![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote%20Tallying%20Process.JPG)
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png)
+![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Enrollment.JPG)
+![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration&20Form.JPG)
+![Voter Registrration and Ballots](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20and%20Ballots.pptx)
+![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png)
+![Voting Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voting%20Process.png)
+![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png)
 
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
@@ -149,6 +159,7 @@ Then are presented with each candidates views on top 15 political issues affecti
 <h1 id="10">10. Next steps: </h1>
 
 <h1 id="11">11. Test Report:	Requirements Traceability Matrix (RTM) Every requirement should map to a planned test </h1>
+![Test Case Table 1](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.jpg)
 
 <h2> Accuracy: </h2>
 I-Vote Revamp uses secure servers and validated voter list. The votes cast cannot be altered or deleted without detection. They are exported from the website to the central register. The site runs over secure encryption and the votes will be transferred in signed packages. Any alteration or deletion during this transfer is detected by the central register. Missing packages are detected as the central register keeps the list of used id's, IP addresses, location, and voting receipts are published. In case some ineligible votes are present in these packages, the central register does not count them because it only counts the votes of the voters listed in the final voter list and pass validity and authenticity checks.
