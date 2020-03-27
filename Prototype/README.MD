@@ -123,6 +123,8 @@ Then are presented with each candidates views on top 15 political issues affecti
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
 
 <embed src="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG?raw=true" width="640" height="480" title="Ballot Management">
+![Ballot Management](/Prototype_Documents/Ballot Management.JPG)
+
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
