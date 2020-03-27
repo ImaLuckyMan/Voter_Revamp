@@ -122,6 +122,9 @@ Then are presented with each candidates views on top 15 political issues affecti
 <h1 id="4">4. Data Design: Database design including the entities, attributes, relationships & data types may be ERD, may be class diagram </h1>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
 
+<embed type="JPEG" src="https://github.com/ImaLuckyMan/Voter_Revamp/Documents/Ballot Management.JPG" width="640" height="480" title="Ballot Management">
+https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Test%20Case%20Table%201.JPG
+
 <h1 id="5">5. UI Design: Wireframe details </h1>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
