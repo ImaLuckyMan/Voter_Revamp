@@ -125,28 +125,36 @@ Then are presented with each candidates views on top 15 political issues affecti
 ![Voter Registrration and Ballots](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20and%20Ballots.pptx)
 
 # Ballot Management
-![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG=20x20) </br>
+![Ballot Management](/Prototype_Documents/Ballot%20Management.jpg) 
+</br>
 
 # Candidate Registration
-![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.JPG=20x20) </br>
+![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.jpg=20x20) 
+</br>
 
 # Registrar Database
-![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Registrar%20Database.JPG=20x20)</br>
+![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Registrar%20Database.jpg=20x20)
+</br>
 
 # Vote Tallying Process
-![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote%20Tallying%20Process.JPG=20x20)</br>
+![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote%20Tallying%20Process.jpg=20x20)
+</br>
 
 # Vote Flow Chart
-![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png=20x20)</br>
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png=20x20)
+</br>
 
 # Voter Enrollment
-![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Enrollment.JPG=20x20)</br>
+![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Enrollment.jpg=20x20)
+</br>
 
 # Voter Registration Form
-![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration&20Form.JPG=20x20)</br>
+![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration&20Form.jpg=20x20)
+</br>
 
 # Voter and Candidate Registration Flow Chart
-![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png=20x20)</br>
+![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png=20x20)
+</br>
 
 <h2> Voting Process </h2>
 ![Voting Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voting%20Process.png=20x20)</br>
@@ -157,8 +165,8 @@ Then are presented with each candidates views on top 15 political issues affecti
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents//Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.JPG">5. Candidate Registration</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20Form.JPG">6. Voter Registrations</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.jpg">5. Candidate Registration</a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20Form.jpg">6. Voter Registrations</a></br>
 <a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx">7. Ballot </a></br>
 
 <h1 id="6">6. Project Plan:	Product Backlog Items (PBIs) and component design. </h1>
