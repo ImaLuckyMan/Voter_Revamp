@@ -67,7 +67,9 @@ Authorized registered Voters will be able to access websites allowing them to li
 <h1 id="9"><a href="https://github.com/ImaLuckyMan/Voter_Revamp/tree/master/Prototype">Prototype File </a></br></h1>
 
 # Contributions: None
-# License: Located in Wiki
-
-# Database diagram - Drafts Uploaded
-# Wire-frames - Drafts Uploaded
+# License: Located in Wiki 
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/wiki"> Link to License Agreement </a>
+# Database diagrams - Drafts Uploaded to Design Documents
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/wiki"> Link to Design Documents </a>
+# Wire-frames - Drafts Uploaded to Design Documents
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/wiki"> Link to Design Documents </a>
