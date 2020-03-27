@@ -124,7 +124,7 @@ Then are presented with each candidates views on top 15 political issues affecti
 
 <embed src="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG?raw=true" width="640" height="480" title="Ballot Management">
 ![Ballot Management](https://Prototype/Prototype_Documents/Ballot Management.JPG)
-![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/Prototype/Prototype_Documents/Ballot%20Management.JPG)
+![Ballot Management](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Ballot%20Management.JPG?raw=true)
 
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
