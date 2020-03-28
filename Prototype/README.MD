@@ -76,7 +76,7 @@ To accomplish this task, a few databases would have to be maintained:
 ## ENTITY RELATIONSHIP DIAGRAM
 [Preliminary Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-![Voter ERD](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterERD.png)
+![Voter ERD](/Prototype_Documents/VoterERD.png)
 
 ## USER STORIES
 [(back to top)](#table-of-contents)
@@ -231,7 +231,7 @@ Each voter will be presented with each candidates answers to the National Issues
 | 6.1.2		| System will automatically close browser once user logs off				| Inspection | TC009|
 
 
-## TESTS TABLE
+## TEST TABLE
 (https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.JPG)
 [(back to top)](#table-of-contents)
 
