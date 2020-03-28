@@ -229,7 +229,7 @@ Each voter will be presented with each candidates answers to the National Issues
 
 ## TEST TABLE
 [(back to top)](#table-of-contents)
-![Test Table](/Prototype_Documents/TestCaseTable1.JPG)
+![Test Table](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/TestCaseTable1.png)
 
 ## Feature List
 [(back to top)](#table-of-contents)
