@@ -76,7 +76,7 @@ To accomplish this task, a few databases would have to be maintained:
 ## ENTITY RELATIONSHIP DIAGRAM
 [Preliminary Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-![Voter ERD](/Prototype_Documents/VoterERD.png)
+![Voter ERD](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterERD.png)
 
 ## USER STORIES
 [(back to top)](#table-of-contents)
@@ -174,6 +174,11 @@ Given an online electronic voting system, a database of current world issues, an
 	
 	* 6.1.2\. System will automatically close browser once user logs off
 
+## Flow Charts
+[(back to top)]{#table-of-contents)
+![Voter and Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png)
+![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png)
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png)
 
 ## WIRE FRAMES
 [(back to top)](#table-of-contents)
