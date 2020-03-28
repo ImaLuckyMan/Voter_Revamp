@@ -180,23 +180,23 @@ Given an online electronic voting system, a database of current world issues, an
 ![Wire Frame Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
 The Landing Page would be a login Screen or redirect to register so that they can loging:
-![National Issues Page](https://www.iwannavote.net)
+![National Issues Page](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/NationalIssuesLoginPage.png)
 
 When registering, the user can enter their information which will be stored in the authorized voter database:
-![Voter Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20Wire%20Diagram.png)
+![Voter Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterRegistrationWireDiagram.png)
 
 One logged in, the user will see a list of the National Issues listed by other authorized voters and will have the option to provide
 their own opinion because everyones opinion counts tied to their voter id.
-![National Issues](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/National%20Issues%20Wire%20Diagram.png)
+![National Issues](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/NationalIssuesWireDiagram.png)
 
 When a candidate registers to vote, they will have the option to list thier opinion on each presented issue. They can update their opinion until it is time to vote tied to their voter id.
-![Candidate registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration%20Wire%20Diagram.PNG)
+![Candidate registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/CandidateRegistrationWireDiagram.png)
 
 Come election day, each authorized voter will login to the voter website
-![Voter Website](https://www.ivote.online)
+![Voter Website](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterLoginPage.png)
 
 Each voter will be presented with each candidates answers to the National Issues so they can make an educated decision without listing the candidates name
-![Voter Ballot](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20View%20Candata%20Answers%20Wire%20Diagram.png)
+![Voter Ballot](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoteCandidateAnswerWireDiagram.png)
 
 ## REQUIREMENTS TABLE
 [(back to top)](#table-of-contents)
@@ -229,7 +229,7 @@ Each voter will be presented with each candidates answers to the National Issues
 
 ## TEST TABLE
 [(back to top)](#table-of-contents)
-![Test Table](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/TestCaseTable1.png)
+![Test Table](/Prototype_Documents/TestCaseTable1.JPG)
 
 ## Feature List
 [(back to top)](#table-of-contents)
