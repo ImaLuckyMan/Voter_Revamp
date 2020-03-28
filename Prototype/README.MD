@@ -201,40 +201,35 @@ Each voter will be presented with each candidates answers to the National Issues
 ## REQUIREMENTS TABLE
 [(back to top)](#table-of-contents)
 
-| Requirement  ID | Requirement Description                                      			| Test Method   | TEST ID      |
-| --------------- | ------------------------------------------------------------------------------------| ------------- | ------------ |
-| 1.0.0           | User visits National Issues Website				 			| Demonstration | TC005        |
-| 1.1.0           | System shows current status of National Issues 					| Inspection    | TC005        |
-| 1.1.1           | User decides they wish to add to the current list of issues 			| Inspection    | TC006        |
-| 1.1.2           | User is asked by the system to login or register if they are not currently registered | Demonstration | TC006        |
-| 2.0.0           | User needs to regiester						             	| Demonstration | TC007        |
-| 2.1.0           | User is directed to appropriate registration page 					| Test          | TC007        |
-| 2.1.1           | The software asks user if they are a voter or candidate and directs them to the appropriate page to register | Demonstration | TC007 |
-| 2.1.2           | System updates the database with registration information 				|Demonstration	| TC007|
-
-| 3.0.0           | Candidates Opinion 									| Test          | TC008        |
-| 3.1.0           | Availability to provide their opinion on the top national issues 			| Test          | TC008        |
-| 3.1.1		  | Candidate update their opinion til the day before election  with their voter id	| Test		| TC008	       |
-
-| 4.0.0           | Vote							                        | Demonstration | TC001        |
-| 4.1.0           | The software verifies the user is authorized by checking registration for Voter ID  | Inspection    | TC001        |
-| 4.1.1           | If authorized, access will provide voter with voter form and candidates answers to national issues without candidates name | Test          | TC001, TC003 |
-| 4.1.2           | The system will track each user votes with their voter ID so the voter can verify their submission | Demonstration | TC001, TC003 |
-| 4.1.3           | The system will tally the votes and provide live results to map		        | Demonstration | TC001        |
-
-| 5.0.0           | The Administrator will have access to the database 				        | Demonstration | TC003, TC004 |
-| 5.1.0           | System will log all changes in order to ensure administration actions are ethical   | Test          | TC003, TC004 |
-
-| 6.0.0           | Security									        | Inspection    | TC009        |
-| 6.1.0           | System will eventually use Microsoft Election Guard or implement Secure ID, Fingerprint, Smart Card, and/or Encryption | Demonstration | TC009        |
-| 6.1.1           | System will ensure users browsers are up to date with latest patches and meets software requirements | Inspection    | TC009        |
-| 6.1.2		| System will automatically close browser once user logs off				| Inspection | TC009|
+| Requirement  ID | Requirement Description                                			| Test Method   | TEST ID      |
+| ------- | ------------------------------------------------------------------------------------| ------------- | ------------ |
+| 1.0.0   | User visits National Issues Website				 			| Demonstration | TC005        |
+| 1.1.0   | System shows current status of National Issues 					| Inspection    | TC005        |
+| 1.1.1   | User decides they wish to add to the current list of issues 			| Inspection    | TC006        |
+| 1.1.2   | User is asked by the system to login or register if they are not currently registered | Demonstration | TC006      |
+| 2.0.0   | User needs to regiester						             	| Demonstration | TC007        |
+| 2.1.0   | User is directed to appropriate registration page 					| Test          | TC007        |
+| 2.1.1   | The software asks user if they are a voter or candidate and directs them to the appropriate page | Demonstration | TC007 |
+| 2.1.2   | System updates the database with registration information 				|Demonstration	| TC007|
+| 3.0.0   | Candidates Opinion 									| Test          | TC008        |
+| 3.1.0   | Availability to provide their opinion on the top national issues 			| Test          | TC008        |
+| 3.1.1	  | Candidate update their opinion til the day before election  with their voter id	| Test		| TC008	       |
+| 4.0.0   | Vote							                        | Demonstration | TC001        |
+| 4.1.0   | The software verifies the user is authorized by checking registration for Voter ID  | Inspection    | TC001        |
+| 4.1.1   | If authorized, access will provide voter with voter form and candidates answers to national issues without candidates name | Test    | TC001, TC003 |
+| 4.1.2   | The system will track each user votes with their voter ID so the voter can verify their submission | Demonstration | TC001, TC003 |
+| 4.1.3   | The system will tally the votes and provide live results to map		        | Demonstration | TC001        |
+| 5.0.0   | The Administrator will have access to the database 				        | Demonstration | TC003, TC004 |
+| 5.1.0   | System will log all changes in order to ensure administration actions are ethical   | Test          | TC003, TC004 |
+| 6.0.0   | Security									        | Inspection    | TC009        |
+| 6.1.0   | System will eventually use Microsoft Election Guard or implement Secure ID, Fingerprint, Smart Card, and/or Encryption | Demonstration | TC009  |
+| 6.1.1   | System will ensure users browsers are up to date with latest patches and meets software requirements | Inspection    | TC009 |
+| 6.1.2	  | System will automatically close browser once user logs off				| Inspection | TC009|
 
 
 ## TEST TABLE
-(https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.JPG)
 [(back to top)](#table-of-contents)
-
+![Test Table](/Prototype_Documents/TestCaseTable1.JPG)
 
 ## Feature List
 [(back to top)](#table-of-contents)
