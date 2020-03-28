@@ -174,32 +174,34 @@ Given an online electronic voting system, a database of current world issues, an
 	* 6.1.2\. System will automatically close browser once user logs off
 
 ## Flow Charts
-[(back to top)]{#table-of-contents)
+[(back to top)](#table-of-contents)
+### VOter and Candidate Registration
 ![Voter and Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterCandidateRegistrationFlowChart.png)
+### National Issues Registration
 ![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/WorldIssuesFlowChart.png)
+### Submitting a Vote
 ![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoteFlowChart.png)
 
 ## WIRE FRAMES
 [(back to top)](#table-of-contents)
 ![Wire Frame Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-The Landing Page would be a login Screen or redirect to register so that they can loging:
+### The Landing Page would be a login Screen or redirect to register so that they can loging:
 ![National Issues Page](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/NationalIssuesLoginPage.png)
 
-When registering, the user can enter their information which will be stored in the authorized voter database:
+### When registering, the user can enter their information which will be stored in the authorized voter database:
 ![Voter Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterRegistrationWireDiagram.png)
 
-One logged in, the user will see a list of the National Issues listed by other authorized voters and will have the option to provide
-their own opinion because everyones opinion counts tied to their voter id.
+### Once logged in, the user will see a list of the National Issues listed by other authorized voters and will have the option to provide their own opinion because everyones opinion counts tied to their voter id.
 ![National Issues](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/NationalIssuesWireDiagram.png)
 
-When a candidate registers to vote, they will have the option to list thier opinion on each presented issue. They can update their opinion until it is time to vote tied to their voter id.
+### When a candidate registers to vote, they will have the option to list thier opinion on each presented issue. They can update their opinion until it is time to vote tied to their voter id.
 ![Candidate registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/CandidateRegistrationWireDiagram.png)
 
-Come election day, each authorized voter will login to the voter website
+### Come election day, each authorized voter will login to the voter website
 ![Voter Website](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterLoginPage.png)
 
-Each voter will be presented with each candidates answers to the National Issues so they can make an educated decision without listing the candidates name
+### Each voter will be presented with each candidates answers to the National Issues so they can make an educated decision without listing the candidates name
 ![Voter Ballot](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoteCandidateAnswerWireDiagram.png)
 
 ## REQUIREMENTS TABLE
@@ -238,7 +240,7 @@ Each voter will be presented with each candidates answers to the National Issues
 ## Feature List
 [(back to top)](#table-of-contents)
 
-Additional features that would be welcomed would be:
+### Additional features that would be welcomed would be:
 
  - Encryption
  - Fingerprint Reader
@@ -246,9 +248,9 @@ Additional features that would be welcomed would be:
  - Printed Reports
  - Additional Verification
  
- ## Prototype
+## Prototype
  [(back to top)](#table-of-contents)
  
- Details and Demonstration of the prototype can be found here:
+### Details and Demonstration of the prototype can be found here:
  
  [Revamp the Vote Prototype](https://www.ivote.online)
