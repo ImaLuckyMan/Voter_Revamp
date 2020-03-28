@@ -209,8 +209,8 @@ Each voter will be presented with each candidates answers to the National Issues
 | 1.1.2           | User is asked by the system to login or register if they are not currently registered | Demonstration | TC006        |
 | 2.0.0           | User needs to regiester						             	| Demonstration | TC007        |
 | 2.1.0           | User is directed to appropriate registration page 					| Test          | TC007        |
-| 2.1.1           | The software asks user if they are a voter or candidate and directs them to the appropriate page to register | Demonstration | TC007        |
-| 2.1.2           | System updates the database with registration information 				|Demonstration	| TC007        |
+| 2.1.1           | The software asks user if they are a voter or candidate and directs them to the appropriate page to register | Demonstration | TC007 |
+| 2.1.2           | System updates the database with registration information 				|Demonstration	| TC007|
 
 | 3.0.0           | Candidates Opinion 									| Test          | TC008        |
 | 3.1.0           | Availability to provide their opinion on the top national issues 			| Test          | TC008        |
