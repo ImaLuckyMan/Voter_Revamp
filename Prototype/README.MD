@@ -76,7 +76,7 @@ To accomplish this task, a few databases would have to be maintained:
 ## ENTITY RELATIONSHIP DIAGRAM
 [Preliminary Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-![Voter ERD](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterERD.png)
+![Voter ERD](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterERD.PNG)
 
 ## USER STORIES
 [(back to top)](#table-of-contents)
