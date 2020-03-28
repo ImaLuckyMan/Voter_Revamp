@@ -1,233 +1,267 @@
-# Prototype of Voter Revamp 2020  <aside><img src="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote2.jpg" style="width:100px; height:100px;"></aside>
-My MSSA class project using ASP.NET, C#, Visual Studio, and SQL Server to revamp the way we vote. I can not change the National Election but this can be used for College, High School, and Business elections and necessity is the mother of invention, maybe it will one day influence change at a higher level.
+# Revamp the Vote
 
-# Concept Description:
-Before we begin, I want to say that I am not here to offend anyone in any way… or sway your opinion. This can be a very controversial topic but I feel like I am not the only one that is frustrated by our current process and change needs to begin somewhere. Whether you are Republican, Democrat, Liberal, Independant, or Other, is irrelevant to this proposal as it addresses our current voting process and ways we can change it for the better.
+## Table of Contents
 
-Electronic voting provides accuracy and efficiency to the electoral processes. World democracies would benefit from a secure e-voting system not only to improve voter participation and trust but also to prevent electoral fraud. However, current e-voting systems are complex and have security weaknesses. In this paper, I describe a secure e-voting system for national and local elections to include college and highschool presidential elections or anyone that requires a secure, fair, voting process free from prejudism and voter fraud. No longer will people be able to choose their candidates by race, sex, money, charisma, or skin color. This system satisfies the important requirements of an e-voting system through state-of-the-art technologies and secure processes. I-Vote is a way to Re-Vamp the voting process in 2020. It will eventually rely on homomorphic cryptography, zero-knowledge proofs, biometrics, smartcards, open-source software, and secure computers for securely and efficiently implementing the system processes over the various stages of the electoral process, without relying on kiosks, volunteers, or geographic polling stations. I outline the main conclusions of the pilot implementations of I-Vote and tested the main technologies and processes used. We also explain how the used technologies and processes achieve the system requirement. In conclusion, I recommend adopting I-Vote ReVamp 2020 for its security, flexibility, economic, and scalability features; but most importantly because it provides a vote based on a candidates political views and not on a candidates, race, color, sex, nationality, charisma, or success.
+- [1. Inspiration](#inspiration)
+- [2. Concept](#concept)
+- [3. Implementation](#implementation)
+- [4. Entity Relationship Diagram (ERD)](#entity-relationship-diagram)
+- [5. User Stories](#user-stories)
+- [6. Use Cases](#use-cases)
+- [7. Use Case Diagram](#use-case-diagram)
+- [8. Requirements](#requirements)
+- [9. Wire-Frames (DRAFT)](#wire-frames)
+- [10. Requirements Table](#requirements-table)
+- [11. Tests Table](#tests-table)
+- [12. Feature List](#feature-list)
+- [13. Prototype](#prototype)
 
-# Index:
-<a href="#1">1. Scope</a></br>
-<a href="#2">2. Requirements</a></br>
-<a href="#2a">    A. User Requirements</a></br>
-<a href="#2b">    B. System Requirements</a></br>
-<a href="#2c">    C. Software Requirements</a></br>
-<a href="#3">3. Solution Design</a></br>
-<a href="#3a">   A. User Stories</a></br>
-<a href="#3a1">      1. Legal Registered Voter Stories</a></br>
-<a href="#3a2">      2. Candidate Stories</a></br>
-<a href="#3b">   B. Use Cases</a></br>
-<a href="#4">4. Data Design</a></br>
-<a href="#5">5. UI Design</a></br>
-<a href="#6">6. Project Plan</a></br>
-<a href="#7">7. Project Demo </a></br>
-<a href="#8">8. Recent Accomplishments </a></br>
-<a href="#9">9. Design Changes </a></br>
-<a href="#10">10. Next Steps </a></br>
-<a href="#11">11. Test Report </a></br>
-<a href="#12">12. Prototype </a></br>
+## INSPIRATION
+[(back to top)](#table-of-contents)
 
-<h1 id="1"> 1. Scope: Brief summary description of the domain and top-level user requirements for your product </h1>
-Our election process in the United States has been deemed corrupt, unsecure, and outdated. Voters are still using archaic methods, going to polling locations and filling out ballots with pen and paper or using punch cards in order to help ensure fair and secure results. States have been accused of cheating and recounts have been requested. Outside countries have been accused of messing with our voting process. I do not believe our forefathers would agree with the way we currently perform our election or the way that we choose those whom lead our country.I don’t believe we should vote for our president by how much money you have, their popularity, how well they articulate themselves, their sex, or the color of their skin. We should not vote for the candidate we hear the most about, just because they were the ones that could afford the commercials and a touring campaign.Instead, I propose we go back to the day where we voted for the candidate that had the most in common with the ideals most common to ourselves. I would like to create a new secure electronic voting process that would verify voter credentials so that voters could not cheat and use dead people or children’s identity in order to cast votes for their preferred candidate. A universal system that anyone needing to vote, no matter where they were located on earth, including military members serving overseas are securely verified. Most importantly, I would change the way we vote for our candidates by running a national poll prior to our election where all citizens could vote on the biggest issues affecting our country. Whether it is abortion, international trade agreements, border wall, immigration, National Debt, Medicare, etc. The top say 15 items will then make it to the candidate’s ballot. Each Presidential candidate will cast an official vote for their stand on each relevant issue. After the votes are tallied and a President elected, there is a Record on File of how the Candide voted holding them responsible for their actions without them saying, Well, I never said that, and as soon as they enter office, they immediately know the things most troubling the nation. There are other electronic voting systems, but not one that changes the way we look at each candidate.
+This is something that I thought of a long time ago. You see I have always been told, when you first meet someone, 
+never talk about Religion or Politics. Yet, before every election, I would take the time to research each candidate and 
+find out where they stand on important issues such as health care, abortion, national security, trade, etc. Then I would 
+have discussions with my friends and family, and there is always someone who wants to debate. 
 
-<h1 id="2"> 2. Requirements: </h1>
-<h2 id="2a"> 2.A User Level Requirements </h2>
-<h3> 1. Non-Discriminatory: </h3>
-The principle of non-discrimination seeks “to guarantee that human rights are exercised without discrimination of any kind based on race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status such as disability, age, marital and family status, sexual orientation and gender identity, health status, place of residence, economic and social situation”.
+Why did you vote for that person? I have simply been floored by some of the responses when female friends of mine stated 
+that they vote for whom they think looks most presidential. Male and female friends have said they voted for Hiliary Clinton
+ and Sarah Palin, because they wanted to be the first to vote in a female President. Now it shouldn't matter whom you decide
+to vote for, whether you are Republican, Democrat, Liberal, or Indifferent, I am not here to sway you views one way or another.
+I just believe that the voting process in this country has strayed from what it use to be. I picture a time when 
+people would travel from far cities and towns on horse drawn carriages to meet in large rooms and vote on whom they felt was the most
+qualified to represent them by their proven leadership, charactor, and where they stood on issues affecting the cities, towns, and 
+thier peers. I picture candidates presenting their ideas as to what they believed should be done to solve national issues and committees
+agreeing or disagreeing and casting their votes. 
 
-<h3> 2. World-Wide Availability:</h3>
-So that registered authorized voters overseas can accurately and securely submit their vote.
+Now, when ever I turn on the TV before or after an election, no matter what channel I turn to, there seems to always be a news station
+ or political campaign commercial with an add degrading either the current President or one of a candidates opposition. During the 
+National debates, candidates are often cutting down other candidates plans rather than explaining their own. I have traveled to over
+27 countries and 36 US states and our elections have been seen to many as a joke overseas. With all the slander on TV talking about
+a Seated President or outside countries interfearing with the US elections. Our election system is archaiac and outdated. Many locations
+still submit there vote over paper ballot becasue they feel that it is more secure. Many locations have to open and volunteers are called on
+to support voting polls that cost money to run, not to mention vandalism and fights that have been known to break out at these locations
+increasing the need for added security. So how do we fix it? We can't just change the system, it would be unconstitutional. But change needs to begin somewhere. Maybe a school, college, or business can use this program for their
+election processes and one day maybe it will inspire change on a larger scale.
 
-<h3> 3. Accuracy: </h3>
-The i-vote system does not allow altering or deleting a validated vote and
-does not count any ineligible vote in the final tally.
+## CONCEPT
+[(back to top)](#table-of-contents)
 
-<h3> 4. Democracy: </h3>
-It allows only eligible voters to vote and allows every voter to vote only
-once.
+What would it take to remove the prejudism and hate out of the electoral process? Establish a voting system where eligible patrons would know
+where a politican or candidate stood on the most pressing issues affecting our country right from the candidate and not their constituaries, 
+a vote that would not be based on sex, religion, color, success, or chrisma of a candidate, but solely on where they stood on the issues? A voting 
+system that could be accessed from anywhere in the world to accomidate for our military and civilian members volunteering overseas. A secure system
+that could be trusted and verifyable?  
 
-<h3> 5. Privacy: </h3>
-It does not disclose the votes of the respective voters and does not allow any
-voter to prove how he/she voted. This is a fundamental requirement to avoid voter intimidation and vote selling.
+I propose that we create a secure website that any eligible voter can log into using their voting credential. This is a government issued unique number just as their SSN that is currently being used. 
+They can use their voting credential to log into the website and view all the issues currently affecting our country. Then they can include their opinion as to what they feel is a top priority. 
+Again, this is tied to their credential, so they can go back and change their opinion as time goes on prior to the vote, but their opinion only counts once. That 
+way issues are presented by the people. Prior to election, candidates will go to their site and a database of all the world issues will pull the top most voted on and present those results to each candidate. 
+Each candidate will receive the same questions. The candidate will then provide answeres to where he/she stands on each issue. The results of the candidates ballot will be stored in a secure database. Come time to vote, everyone that is a legal, authorized, registered,
+voter will be able to log in from anywhere in the world to the secure online electronic voting site using their registered credential just as if you were casting
+an out of state ballot. Each voter will be presented with the candidates answers so that they can make an educated decision as to whom they feel are most inline with
+their own beliefs. **The difference is the answer sheet WILL NOT DISPLAY the candidates name, only the answers. Therefore, you do not know if the candidate most in line with you is male or female, black or white, rich or poor, etc... just where they stand. Because it is documented on the ballot, whom ever gets elected cannot deny 
+they ever said Yes or No to a particular topic. After the votes have been submitted, the system will be able to provide reports that voters can use to look up their vote by their voter id number and verify 
+that their vote counted. The system will monitor the ip address and geo location of where a vote was placed to deter curruption and will be able to identify through AI when 
+something isn't quite right similar to how your credit card company or bank identifies purchases that are out of the ordinary.  
 
-<h3> 6. Verifiability: </h3>
-It allows anyone to verify that all votes were correctly counted. And in
-case of electoral disputes, it provides means for rechecking the results.
 
-<h3> 7. Security: </h3>
-It always satisfies the accuracy, democracy, and privacy requirements and
-does not allow inside or outside attackers to undermine these requirements. Additionally, it satisfies reliability, availability, and data integrity requirements.
+## IMPLEMENTATION
+[(back to top)](#table-of-contents)
 
-<h3> 8. Acceptance: </h3>
-It is accepted by voters and candidates who believe that the system is fair
-and they trust its results. This requirement depends on all above requirements.
+To accomplish this task, a few databases would have to be maintained:
 
-<h3> 9. Flexibility: </h3>
-It can carry out various types of elections for parliaments, municipalities,
-student boards, plebiscites, referendums, etc. Flexibility provides economic advantage
-when the same system is used to conduct multiple electoral processes in a certain country or city. A necessary aspect of the flexibility, which is needed for democracy, is the universality in allowing any eligible voter to vote irrespective of her native language, special needs, or literacy level. One more important aspect is the mobility in allowing the voter to vote in any voting center that is most convenient to her.
+ - List of Authorized Voters
+ - IP and Geo Location Tracking
+ - Voter Ballot for the chosen candidate
+ - Candidate Ballot opinion on world issues
+ - World Issues database on everything affecting the country
+ - Results for archeiving
 
-<h3> 10. Cost effectiveness: </h3>
-It uses economic software and hardware components. This requirement is particularly important for large-scale elections.
+## ENTITY RELATIONSHIP DIAGRAM
+[Preliminary Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-<h3> 11. Scalability: </h3>
-It efficiently enables carrying out various sizes of elections. The election
-size can be small (up to few hundred voters, e.g., electing the speaker of a parliament),
-medium (thousands of voters, e.g., electing the city board), or large (millions of voters,
-e.g., general parliamentary elections). When the system is used in various election sizes, it achieves flexibility, provides better return on investment, and facilitates productizing it in mass quantities.
+![Voter ERD](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterERD.png)
 
-<h2 id="2b"> 2.B System Requirements</h2>
-This would require a database of authorized voters with locations and rule sets to ensure they are registered. Security and authentication precautions, polling databases that list up to date relevant issues, backup systems to ensure availability and prevent tampering, Input and Output engines, as well as the ability to accurately count and report submissions. 
+## USER STORIES
+[(back to top)](#table-of-contents)
 
-<h2 id="2c"> 2.C. Software Requirements </h2>
-Smartphone, terminal, pc, tablet, or any device that can access the world wide web over Secure-HTTP via a Browser running the latest patches and security updates. </br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/srs.doc">1. Software Requirements Specifications Document Link </a></br>
+<h2> 1) As a Legal Registered Voter over the age of 18 <h2>
+I need/want A secure voting system that frees me from the political backlash and media jargon of candidates lying 
+and trying to stab each other in the back in order to win enough votes to possibly be elected for means other than 
+the best interests of the people they represent. I require a secure system that is free from outside influence where 
+I can place my vote from anywhere and know it will be counted. I need a system that is accurate, counts votes quickly, 
+frees up volunteers and funding. I want a system that is modern and encrypted and prevents other voters from choosing 
+a candidate by their sex, race, success, charisma, skin color, or any other prejudice, and simply vote for the candidate 
+whose political views are most in line with their own. So that voters such as myself can feel safe and secure that my vote 
+will be counted and that I will be safe from oppression. So that I do not have to listen to political campaigns backstabbing 
+each other in the media. So that the hate will stop between voters for their views on their chosen candidates.
 
-<h1 id="3"># Solution Design: User Stories and Use Cases</h1>
-<h2> User Stories </h2>
-<h3> As a Legal Registered Voter over the age of 18 </h3>
-I need/want 
-A secure voting system that frees me from the political backlash and media jargon of candidates lying and trying to stab each other in the back in order to win enough votes to possibly be elected for means other than the best interests of the people they represent. I require a secure system that is free from outside influence where I can place my vote from anywhere and know it will be counted. I need a system that is accurate, counts votes quickly, frees up volunteers and funding.  I want a system that is modern and encrypted and prevents other voters from choosing a candidate by their sex, race, success, charisma, skin color, or any other prejudice, and simply vote for the candidate whose political views are most in line with their own.
-So that voters such as myself can feel safe and secure that my vote will be counted and that I will be safe from oppression. 
-So that I do not have to listen to political campaigns backstabbing each other in the media.
-So that the hate will stop between voters for their views on their chosen candidates.
-
-<h3> As a Candidate </h3>
-I need/want a system that is secure and accurate, that can be trusted and prevent recount. I need a system with near real time results. I need a system that voters can access from anywhere including our military members stationed overseas.
+<h2> 2) As a Candidate </h2>
+I need/want a system that is secure and accurate, that can be trusted and prevent recount. 
+I need a system with near real time results. 
+I need a system that voters can access from anywhere including our military members stationed overseas. 
 So that accurate results are received in a timely manner and allow for the most votes to be submitted with world-wide secure availability.
 
-<h2 id=""> Use Cases </h2>
-Given an online electronic voting system and database of current world issues and a registry of legal authorized voters 
-When user Registers to Vote
-Then the users credentials are stored securely and remotely
 
-Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters 
-When Registered Candidates log in
-Then the candidate is sent to their own form that lists the top 15 most relevant issues affecting the country where they can give their opinion.
+## USE CASES
+[(back to top)](#table-of-contents)
 
-Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters 
-When Votes have been submitted
-Then the votes are tallied securely and results are provided in near real time.
+Given an online electronic voting system and database of current world issues and a registry of legal authorized voters When user Registers to Vote Then the users credentials are stored securely and remotely
+Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters When Registered Candidates log in Then the candidate is sent to their own form that lists the top 15 most relevant issues affecting the country where they can give their opinion.
 
-Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters 
-When Authorized Voters are deployed overseas
-Then they can still access the system and submit their vote.
+Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters When Votes have been submitted Then the votes are tallied securely and results are provided in near real time.
 
-Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters 
-When a voter goes to submit their vote
-Then are presented with each candidates views on top 15 political issues affecting the country, without knowing which candidate submitted which set of views.
+Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters When Authorized Voters are deployed overseas Then they can still access the system and submit their vote.
 
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Use%20Case%20Diagram.pdf">4. Use Case</a></br>
+Given an online electronic voting system, a database of current world issues, and a registry of legal authorized voters When a voter goes to submit their vote Then are presented with each candidates views on top 15 political issues affecting the country, without knowing which candidate submitted which set of views.
 
-<h1 id="4">4. Data Design: Database design including the entities, attributes, relationships & data types may be ERD, may be class diagram </h1>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Flow%20Chart%20Draft.pdf">3. Flow Chart</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx> Example Ballot </a></br>
-![Voter Registrration and Ballots](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20and%20Ballots.pptx)
+## USE CASE DIAGRAM
+[(back to top)](#table-of-contents)
 
-# Ballot Management
-![Ballot Management](/Prototype_Documents/Ballot%20Management.jpg) 
-</br>
+![Use Case Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/UseCaseDiagram.png)
 
-# Candidate Registration
-![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.jpg=20x20) 
-</br>
+## REQUIREMENTS
+[(back to top)](#table-of-contents)
 
-# Registrar Database
-![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Registrar%20Database.jpg=20x20)
-</br>
+* 1.0\. User visits National Issues Website
 
-# Vote Tallying Process
-![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote%20Tallying%20Process.jpg=20x20)
-</br>
+	* 1.1\. System shows current status of National Issues
 
-# Vote Flow Chart
-![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png=20x20)
-</br>
+		* 1.1.1\. User decides they wish to add to the current list of issues
 
-# Voter Enrollment
-![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Enrollment.jpg=20x20)
-</br>
+		* 1.1.2\. User is asked by the system to login or register if they are not currently registered
 
-# Voter Registration Form
-![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration&20Form.jpg=20x20)
-</br>
+		* 1.1.3\. The system checks whether or not the user is authorized to login
 
-# Voter and Candidate Registration Flow Chart
-![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png=20x20)
-</br>
+		* 1.1.4\. If the user is authorized the system will allow them to submit their opinion connected to their ID
 
-<h2> Voting Process </h2>
-![Voting Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voting%20Process.png=20x20)</br>
+		* 1.1.5\. System will update database of issues with updated information and keep tally
+	
+		* 1.1.6\. System returns user to status page and allows the user to log out 
 
-<h2> World Issues Flow Chart <h2>
-![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png=20x20)</br>
+* 2.0\. User needs to regiester
+
+	* 2.1\. User is directed to appropriate registration page
+
+		* 2.1.1\. The software asks user if they are a voter or candidate and directs them to the appropriate page to register
+		* 2.1.1\. System updates the database with registration information
+
+* 3.0\. Candidates Opinion
+
+	* 3.1\. When a candidate registers they will have availability to provide their opinion on the top national issues in the National Issue Database
+
+		* 2.1.1\. Candidate will be able to update their opinion up to the day before the election associated with their voter id
+
+* 4.0\. Vote
+
+	* 4.1\. On the day of election users will be able to login voter page
+
+		* 4.1.1\. The software will verify the user is authorized voter by checking registration for Voter ID
+
+		* 4.1.2\. If authorized, the system will allow voter access and will provide voter with voter form and candidates answers to national issues without candidates name
+
+		* 4.1.3\. The system will track how each user votes connected to their voter ID so that the voter can verify their submission
+		
+		* 4.1.4\. The system will track users IP address and Geo location for security of the vote to track multiple votes using same ID and different locations
+
+		* 4.1.5\. The system will tally the votes and provide live results to map
 
 
-<h1 id="5">5. UI Design: Wireframe details </h1>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents//Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration.jpg">5. Candidate Registration</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20Form.jpg">6. Voter Registrations</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Example%20Ballot.pptx">7. Ballot </a></br>
+* 6.0 \. The Administrator will have access to the database 
 
-<h1 id="6">6. Project Plan:	Product Backlog Items (PBIs) and component design. </h1>
-# Complete 
-# Work-in-Progress (WIP), 
-# Not Started
-# Backlog
+	* 6.1\. System will log all changes in order to ensure administration actions are done ethically
 
-<h1 id="7">7. Project Demo:	Screen Shots </h1>
-<a href="http://www.iwannavote.net">9. Issues Site </a></br>
-<a href="http://www.ivote.online">10. Voter Site </a></br>
+* 7.9 \. Security
+	* 7.1\. System will eventually use Microsoft Election Guard or implement Secure ID, Fingerprint, Smart Card, and/or Encryption
+	
+	* 7.1.1\. System will ensure users browsers are up to date with latest patches and meets software requirements
+	
+	* 7.1.2\. System will automatically close browser once user logs off
 
-<h1 id="8">8. Recent accomplishments: </h1>
 
-<h1 id="9">9. Design changes: </h1>
+## WIRE FRAMES
+[(back to top)](#table-of-contents)
+![Wire Frame Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-<h1 id="10">10. Next steps: </h1>
+The Landing Page would be a login Screen with the Grab & Go Logo and a tab to be able to sign up:
+![National Issues Page](https://www.iwannavote.net)
 
-<h1 id="11">11. Test Report:	Requirements Traceability Matrix (RTM) Every requirement should map to a planned test </h1>
-![Test Case Table 1](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.jpg)
+After selecting the "Sign Up' Tab, the user can enter their information where it can be validated and submitted for account creation:
+![Sign Up Screen](https://github.com/cjpleasant88/Grab-Go/blob/master/Assets/Sign%20Up%20Screen.png)
 
-<h2> Accuracy: </h2>
-I-Vote Revamp uses secure servers and validated voter list. The votes cast cannot be altered or deleted without detection. They are exported from the website to the central register. The site runs over secure encryption and the votes will be transferred in signed packages. Any alteration or deletion during this transfer is detected by the central register. Missing packages are detected as the central register keeps the list of used id's, IP addresses, location, and voting receipts are published. In case some ineligible votes are present in these packages, the central register does not count them because it only counts the votes of the voters listed in the final voter list and pass validity and authenticity checks.
+One logged in, the user can create a shopping list in an arbitrary order. This list can be shared with other users such as a family member or spouse:
+![Candidate Registration](https://github.com/cjpleasant88/Grab-Go/blob/master/Assets/Shopping%20List.png)
 
-<h2> Democracy: </h2>
-Eligible voters’ authentication is securely carried out using voter registration and future additions shall include fingerpring and/or smartcard. Only the real owner of the smartcard ID can cast their vote. This identity check is automated without the need for human involvement. Only the votes of the eligible voters are counted by the central register. Any voter can only vote once
-because the database stores the ballot type ID preventing the voter from voting again. Even when this voter ID is somehow reused, the central register only counts one vote for each voter in the final tally. Multiple votes from the same voter are detected by the central register and published.
+Once the "Let's go shopping" being has been clicked, the app will take the users list of items and reorder them in a way that creates the "fastest path" through the store. A map view can also be shown identifying the location of the items in the store with a bird's eye view of the store:
+![Candidate opinion without name](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20View%20Candata%20Answers%20Wire%20Diagram.png)
 
-<h2> Privacy: </h2>
-I-Vote uses encrypted ballots that cannot be decrypted by a single party. The homomorphic property of Paillier cryptosystem is used to tally the ballots without decrypting them. Only the final tally is decrypted through a distributed threshold decryption scheme that involves multiple parties. The voting receipt cannot be decoded to retrieve the vote because this receipt is simply an encrypted digest of the encrypted ballot.
+## REQUIREMENTS TABLE
+[(back to top)](#table-of-contents)
 
-<h2> Verifiability: </h2>
-I-Vote publishes the encrypted ballots, voting receipts, and uses a paper trail. Anyone can download the eligible ballots from the publishing server and verify the announced tally. Any voter can verify that their vote has reached the final tally through searching for her voting receipts among the published receipts by their ID. The paper trail of ballots deposited in the ballot boxes can be used to verify the electronic results. However, some of these ballots are ineligible for several reasons and are not counted by the central register. For example, a ballot is ineligible when it comes from an ineligible voter. These ballots can be discarded in a physical ballot count when the kiosk gives each ballot a random unique number and when the central register exports the list of ineligible ballots. This physical ballot counting can be sped through using man and machine readable ballots. Paper trails also provide the system with redundancy, thereby making it more robust.
+| Requirement  ID | Requirement Description                                      | Test Method   | TEST ID      |
+| --------------- | ------------------------------------------------------------ | ------------- | ------------ |
+| 1.0.0           | User Shall Input Grocery  Items into personal List by selecting items from a pre-populated list | Demonstration | TC005        |
+| 1.1.0           | System Shall show user  categories of items or all items for user to select from | Inspection    | TC005        |
+| 1.1.1           | The software shall  maintain the relationship of items and their parent category | Inspection    | TC006        |
+| 1.1.2           | The software shall allow  searching an filtering of users typed values with values in the stored list  of grocery items | Demonstration | TC006        |
+| 2.0.0           | User Shall view their list  in an ordered manner             | Demonstration | TC007        |
+| 2.1.0           | The System shall compare  user list with specific store layout to generate an ordered list | Test          | TC007        |
+| 2.1.1           | The software shall  display the users list in the newly ordered format | Demonstration | TC007        |
+| 3.0.0           | User shall select a map  view of the were their items are in the store | Test          | TC008        |
+| 3.1.0           | The system shall map the  location of users items onto a known store map | Test          | TC008        |
+| 4.0.0           | User shall be able to  create an account                     | Demonstration | TC001        |
+| 4.1.0           | The system shall store a  users username and password for sign in purposes | Inspection    | TC001        |
+| 4.1.1           | The software shall  validate the email is in a valid email format | Test          | TC001, TC003 |
+| 4.1.2           | The software shall ensure  that the username is not already in the system database | Demonstration | TC001, TC003 |
+| 4.1.3           | The system shall alert  the user if validation fails and gives reason why validation failed | Demonstration | TC001        |
+| 4.1.4           | The system will generate  a new Shopping list record and associate the Shopping List ID with the user  account | Inspection    | TC002        |
+| 4.2.0           | The system shall link a  user account with a grocery list that the user creates | Inspection    | TC002        |
+| 5.0.0           | User shall be able to share  their list with another user    | Demonstration | TC003, TC004 |
+| 5.1.0           | The system will ensure that  another user exists             | Test          | TC003, TC004 |
+| 5.1.1           | The software will compare  requested username with list of created accounts | Demonstration | TC003        |
+| 5.1.2           | The software will notify  original user of the requested user does not exists and halt shopping list  linking | Test          | TC003        |
+| 5.2.0           | The system will prompt  requested user upon next login that they have been selected to share list | Demonstration | TC004        |
+| 5.3.0           | The system will link list  upon requested users acceptance   | Test          | TC004        |
+| 5.3.1           | The software will drop  the requested users shopping list table from the database | Inspection    | TC004        |
+| 5.3.2           | The software will add the  Shopping List ID of the original user to the requested users account to  compete the linking process | Inspection    | TC004        |
+| 6.0.0           | The Administrator shall  add new grocery items to the Master Grocery List | Inspection    | TC009        |
+| 6.1.0           | The system shall display a  form to the administrator for all required information of a grocery item | Demonstration | TC009        |
+| 6.1.1           | The Software shall run  script(s) to take form data and create a new record of the item in the Master  Grocery List Table | Inspection    | TC009        |
+| 7.0.0           | The Administrator shall be  able to add a new Store and Layout to the System | Inspection    | TC010        |
+| 7.1.0           | The System shall display a  form to the administrator for all required information of a Store entity | Demonstration | TC010        |
+| 7.1.1           | The software shall run  script(s) to take form data and create a new record of the item in the Store  Table | Inspection    | TC010        |
 
-<h2> Security: </h2>
-The features mentioned above allow the system to securely achieve the accuracy, democracy, and privacy requirements. The use of open source software provides superior secure, reliable, and robust voting software. Software problems and vulnerabilities are detected and solved faster. And the use of secure offline computers for the sensitive system components eliminates all electronic attacks on these components and enhances availability. Moreover, the hardware locks and seals prevent many physical attacks and allow detection of these attacks when committed.
+## TESTS TABLE
+[(back to top)](#table-of-contents)
 
-Data exchange among the system components is also secure. Receivers always verify the authenticity and integrity of received data as the exchanged data is digitally signed using hashing and PKC. Furthermore, stored data is secured through replication, digests, and backup as described in the previous sections.
+| Test ID | Requirement ID(s)                        | Test Procedure                                               | Current Status | Time Stamp | Version |
+| ------- | ---------------------------------------- | ------------------------------------------------------------ | -------------- | ---------- | ------- |
+| TC001   | 4.0.0, 4.1.0, 4.1.1, 4.1.2, 4.1.3        | User login w/o having logged in before, taken to signup screen to create  account. Sign out and login with new signup information. | Not Tested     | 3/8/2020   | N/A     |
+| TC002   | 4.1.4, 4.2.0                             | Check system database for list id of a new account creation  | Not Tested     | 3/8/2020   | N/A     |
+| TC003   | 5.0.0, 5.1.0, 5.1.1, 5.1.2, 4.1.2, 4.1.1 | Add new user, click share list, select user that does not already exist | Not Tested     | 3/8/2020   | N/A     |
+| TC004   | 5.0.0, 5.1.1, 5.2.0, 5.3.0, 5.3.1, 5.3.2 | using user from TC003, click share list, select user from TC001, login to  user from TC001 and verify shared list prompt, click approve | Not Tested     | 3/8/2020   | N/A     |
+| TC005   | 1.0.0, 1.1.0                             | Add bread, milk, eggs to an existing users list              | Not Tested     | 3/8/2020   | N/A     |
+| TC006   | 1.1.1, 1.1.2                             | Have administrator look at SQL data base and verify that report can be  pulled by category, and that the list in the application id the same items | Not Tested     | 3/8/2020   | N/A     |
+| TC007   | 2.0.0, 2.1.0, 2.1.1                      | Logged in user can select "Let's go Shopping" and see their  list in an ordered format according to store layout | Not Tested     | 3/8/2020   | N/A     |
+| TC008   | 3.0.0, 3.1.0                             | User can select "map View" and see their items on store map,  matching their physical location in the store | Not Tested     | 3/8/2020   | N/A     |
+| TC009   | 6.0.0, 6.1.0, 6.1.1                      | Administrator adds a new item to database, adds a non-existing item,  verifies that is shows up in the application | Not Tested     | 3/8/2020   | N/A     |
+| TC010   | 7.0.0, 7.1.0, 7.1.1                      | Administrator add a new store and layout to the database, verifies that  store and layout populate in the application | Not Tested     | 3/8/2020   | N/A     |
 
-<h2> Acceptance: </h2>
-The constituency and candidates are likely to accept the system that achieves the above five requirements. This acceptance is enhanced through providing them with the system’s source code and allowing them to check it for any vulnerabilities.
+## Feature List
+[(back to top)](#table-of-contents)
 
-Another method to enhance acceptance is using the I-voting system in conducting less critical elections or opinion polls before using it in critical, nation-wide elections. Such elections might be directed at selecting most important historical figures or best sites to visit. Another good bulwark against constituency resistance to the new system is providing them with the feel of the old system, namely, paper ballots. Although adding a paper trail endures additional costs, it is essential to gain acceptance at the early stages of the
-system adoption and maintain needed verifiability.
+Additional features that would be welcomed would be:
 
-<h2> Flexibility: </h2>
-A major flexibility feature in S-Vote is a result of using flexible XML descriptions for the ballots. The central register software allows designing any ballot.
-
-The voting kiosks import and use the designed ballot forms that are included in the kiosk voting kit. I-Vote supports multiple election types including single vote, limited vote, and approval vote. As the smartcard holds the voter’s precinct ID, the kiosk offers the voter the correct ballot according to her precinct. However, when the same system is used in multiple electoral processes, the kiosk cannot rely on one precinct ID. The voter precinct overrides described in Section 4 can specify the ballot that the voter should fill irrespective of the voting precinct. When the national e-voting system is used in electoral processes that include noncitizens, special expatriate smartcard IDs should be distributed.
-
-As all data needed in a vote casting is available online. I-Vote allows any authorized voter to vote from anywhere in the world. There is no need to force the voter to appear in a specific voting center that might be far or overcrowded.
-
-I-Vote supports universality through allowing ballots in multiple languages, catering for voters with special needs, and accommodating illiterate people. Illiterates are presented special graphical directions showing candidates’ photos or symbols and supported by audio instructions through headphones.
-
-<h2> Cost effectiveness: </h2>
-Licensing costs are reduced by using free software and operating systems. S-Vote uses commodity and cheap technologies. For example, it uses fingerprint readers instead of iris scanners for the cost advantage of the former.
-
-<h2> Scalability: </h2> 
-I-Vote achieves scalability through using a building block (voting kiosk) that can be deployed in various numbers. The major challenge is to provide enough voting kiosks that allow all voters to cast their votes within the limited election period. We estimate that one voting kiosk can serve from 500 to 1,000 voters in a day. This through put can only be achieved through clear and streamlined kiosk user interface. Depending on the electorate size, the election committee has to provide a suitable number of voting
-kiosks distributed over voting centers. Aggregating results of a large election in the central register can be sped up through electronically transferring the ballots exported from the kiosks. There is no need to physically deliver the removable storage containing the ballots package exported from the kiosk because the ballots are encrypted and this package is signed. The large computing load of verifying vote validity and authenticity in large countries is manageable and should be handled through parallel processing.
-
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
-
-<h1 id="12">Prototype</h1>
+ - Ability to scan bar codes of items and add to list
+ - Have different Store maps/information to choose from
+ - Integration of Available coupons
+ - Recipe Integration
+ - Home Pantry Inventory
+ 
+ ## Prototype
+ [(back to top)](#table-of-contents)
+ 
+ Details and Demonstration of the prototype can be found here:
+ 
+ [Grab & Go Prototype](https://github.com/cjpleasant88/Grab-Go/tree/master/docs)
