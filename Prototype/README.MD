@@ -55,16 +55,11 @@ that could be trusted and verifyable?
 
 I propose that we create a secure website that any eligible voter can log into using their voting credential. This is a government issued unique number just as their SSN that is currently being used. 
 They can use their voting credential to log into the website and view all the issues currently affecting our country. Then they can include their opinion as to what they feel is a top priority. 
-Again, this is tied to their credential, so they can go back and change their opinion as time goes on prior to the vote, but their opinion only counts once. That 
-way issues are presented by the people. Prior to election, candidates will go to their site and a database of all the world issues will pull the top most voted on and present those results to each candidate. 
-Each candidate will receive the same questions. The candidate will then provide answeres to where he/she stands on each issue. The results of the candidates ballot will be stored in a secure database. Come time to vote, everyone that is a legal, authorized, registered,
-voter will be able to log in from anywhere in the world to the secure online electronic voting site using their registered credential just as if you were casting
-an out of state ballot. Each voter will be presented with the candidates answers so that they can make an educated decision as to whom they feel are most inline with
-their own beliefs. **The difference is the answer sheet WILL NOT DISPLAY the candidates name, only the answers. Therefore, you do not know if the candidate most in line with you is male or female, black or white, rich or poor, etc... just where they stand. Because it is documented on the ballot, whom ever gets elected cannot deny 
-they ever said Yes or No to a particular topic. After the votes have been submitted, the system will be able to provide reports that voters can use to look up their vote by their voter id number and verify 
-that their vote counted. The system will monitor the ip address and geo location of where a vote was placed to deter curruption and will be able to identify through AI when 
-something isn't quite right similar to how your credit card company or bank identifies purchases that are out of the ordinary.  
+Again, this is tied to their credential, so they can go back and change their opinion as time goes on prior to the vote, but their opinion only counts once. That way issues are presented by the people. Prior to election, candidates will go to their site and a database of all the world issues will pull the top most voted on and present those results to each candidate. 
+Each candidate will receive the same questions. The candidate will then provide answeres to where he/she stands on each issue. The results of the candidates ballot will be stored in a secure database. Come time to vote, everyone that is a legal, authorized, registered, voter will be able to log in from anywhere in the world to the secure online electronic voting site using their registered credential just as if you were casting an out of state ballot. Each voter will be presented with the candidates answers so that they can make an educated decision as to whom they feel are most inline with their own beliefs. 
+**The difference is the answer sheet WILL NOT DISPLAY the candidates name, only the answers. Therefore, you do not know if the candidate most in line with you is male or female, black or white, rich or poor, etc... just where they stand. 
 
+Because it is documented on the ballot, whom ever gets elected cannot deny they ever said Yes or No to a particular topic. After the votes have been submitted, the system will be able to provide reports that voters can use to look up their vote by their voter id number and verify that their vote counted. The system will monitor the ip address and geo location of where a vote was placed to deter curruption and will be able to identify through AI when something isn't quite right similar to how your credit card company or bank identifies purchases that are out of the ordinary.  
 
 ## IMPLEMENTATION
 [(back to top)](#table-of-contents)
@@ -151,7 +146,7 @@ Given an online electronic voting system, a database of current world issues, an
 
 	* 3.1\. When a candidate registers they will have availability to provide their opinion on the top national issues in the National Issue Database
 
-		* 2.1.1\. Candidate will be able to update their opinion up to the day before the election associated with their voter id
+		* 3.1.1\. Candidate will be able to update their opinion up to the day before the election associated with their voter id
 
 * 4.0\. Vote
 
@@ -168,100 +163,93 @@ Given an online electronic voting system, a database of current world issues, an
 		* 4.1.5\. The system will tally the votes and provide live results to map
 
 
-* 6.0 \. The Administrator will have access to the database 
+* 5.0 \. The Administrator will have access to the database 
 
-	* 6.1\. System will log all changes in order to ensure administration actions are done ethically
+	* 5.1\. System will log all changes in order to ensure administration actions are done ethically
 
-* 7.9 \. Security
-	* 7.1\. System will eventually use Microsoft Election Guard or implement Secure ID, Fingerprint, Smart Card, and/or Encryption
+* 6.0 \. Security
+	* 6.1\. System will eventually use Microsoft Election Guard or implement Secure ID, Fingerprint, Smart Card, and/or Encryption
 	
-	* 7.1.1\. System will ensure users browsers are up to date with latest patches and meets software requirements
+	* 6.1.1\. System will ensure users browsers are up to date with latest patches and meets software requirements
 	
-	* 7.1.2\. System will automatically close browser once user logs off
+	* 6.1.2\. System will automatically close browser once user logs off
 
 
 ## WIRE FRAMES
 [(back to top)](#table-of-contents)
 ![Wire Frame Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/)
 
-The Landing Page would be a login Screen with the Grab & Go Logo and a tab to be able to sign up:
+The Landing Page would be a login Screen or redirect to register so that they can loging:
 ![National Issues Page](https://www.iwannavote.net)
 
-After selecting the "Sign Up' Tab, the user can enter their information where it can be validated and submitted for account creation:
-![Sign Up Screen](https://github.com/cjpleasant88/Grab-Go/blob/master/Assets/Sign%20Up%20Screen.png)
+When registering, the user can enter their information which will be stored in the authorized voter database:
+![Voter Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20Registration%20Wire%20Diagram.png)
 
-One logged in, the user can create a shopping list in an arbitrary order. This list can be shared with other users such as a family member or spouse:
-![Candidate Registration](https://github.com/cjpleasant88/Grab-Go/blob/master/Assets/Shopping%20List.png)
+One logged in, the user will see a list of the National Issues listed by other authorized voters and will have the option to provide
+their own opinion because everyones opinion counts tied to their voter id.
+![National Issues](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/National%20Issues%20Wire%20Diagram.png)
 
-Once the "Let's go shopping" being has been clicked, the app will take the users list of items and reorder them in a way that creates the "fastest path" through the store. A map view can also be shown identifying the location of the items in the store with a bird's eye view of the store:
-![Candidate opinion without name](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20View%20Candata%20Answers%20Wire%20Diagram.png)
+When a candidate registers to vote, they will have the option to list thier opinion on each presented issue. They can update their opinion until it is time to vote tied to their voter id.
+![Candidate registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Candidate%20Registration%20Wire%20Diagram.PNG)
+
+Come election day, each authorized voter will login to the voter website
+![Voter Website](https://www.ivote.online)
+
+Each voter will be presented with each candidates answers to the National Issues so they can make an educated decision without listing the candidates name
+![Voter Ballot](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter%20View%20Candata%20Answers%20Wire%20Diagram.png)
 
 ## REQUIREMENTS TABLE
 [(back to top)](#table-of-contents)
 
-| Requirement  ID | Requirement Description                                      | Test Method   | TEST ID      |
-| --------------- | ------------------------------------------------------------ | ------------- | ------------ |
-| 1.0.0           | User Shall Input Grocery  Items into personal List by selecting items from a pre-populated list | Demonstration | TC005        |
-| 1.1.0           | System Shall show user  categories of items or all items for user to select from | Inspection    | TC005        |
-| 1.1.1           | The software shall  maintain the relationship of items and their parent category | Inspection    | TC006        |
-| 1.1.2           | The software shall allow  searching an filtering of users typed values with values in the stored list  of grocery items | Demonstration | TC006        |
-| 2.0.0           | User Shall view their list  in an ordered manner             | Demonstration | TC007        |
-| 2.1.0           | The System shall compare  user list with specific store layout to generate an ordered list | Test          | TC007        |
-| 2.1.1           | The software shall  display the users list in the newly ordered format | Demonstration | TC007        |
-| 3.0.0           | User shall select a map  view of the were their items are in the store | Test          | TC008        |
-| 3.1.0           | The system shall map the  location of users items onto a known store map | Test          | TC008        |
-| 4.0.0           | User shall be able to  create an account                     | Demonstration | TC001        |
-| 4.1.0           | The system shall store a  users username and password for sign in purposes | Inspection    | TC001        |
-| 4.1.1           | The software shall  validate the email is in a valid email format | Test          | TC001, TC003 |
-| 4.1.2           | The software shall ensure  that the username is not already in the system database | Demonstration | TC001, TC003 |
-| 4.1.3           | The system shall alert  the user if validation fails and gives reason why validation failed | Demonstration | TC001        |
-| 4.1.4           | The system will generate  a new Shopping list record and associate the Shopping List ID with the user  account | Inspection    | TC002        |
-| 4.2.0           | The system shall link a  user account with a grocery list that the user creates | Inspection    | TC002        |
-| 5.0.0           | User shall be able to share  their list with another user    | Demonstration | TC003, TC004 |
-| 5.1.0           | The system will ensure that  another user exists             | Test          | TC003, TC004 |
-| 5.1.1           | The software will compare  requested username with list of created accounts | Demonstration | TC003        |
-| 5.1.2           | The software will notify  original user of the requested user does not exists and halt shopping list  linking | Test          | TC003        |
-| 5.2.0           | The system will prompt  requested user upon next login that they have been selected to share list | Demonstration | TC004        |
-| 5.3.0           | The system will link list  upon requested users acceptance   | Test          | TC004        |
-| 5.3.1           | The software will drop  the requested users shopping list table from the database | Inspection    | TC004        |
-| 5.3.2           | The software will add the  Shopping List ID of the original user to the requested users account to  compete the linking process | Inspection    | TC004        |
-| 6.0.0           | The Administrator shall  add new grocery items to the Master Grocery List | Inspection    | TC009        |
-| 6.1.0           | The system shall display a  form to the administrator for all required information of a grocery item | Demonstration | TC009        |
-| 6.1.1           | The Software shall run  script(s) to take form data and create a new record of the item in the Master  Grocery List Table | Inspection    | TC009        |
-| 7.0.0           | The Administrator shall be  able to add a new Store and Layout to the System | Inspection    | TC010        |
-| 7.1.0           | The System shall display a  form to the administrator for all required information of a Store entity | Demonstration | TC010        |
-| 7.1.1           | The software shall run  script(s) to take form data and create a new record of the item in the Store  Table | Inspection    | TC010        |
+| Requirement  ID | Requirement Description                                      			| Test Method   | TEST ID      |
+| --------------- | ------------------------------------------------------------------------------------| ------------- | ------------ |
+| 1.0.0           | User visits National Issues Website				 			| Demonstration | TC005        |
+| 1.1.0           | System shows current status of National Issues 					| Inspection    | TC005        |
+| 1.1.1           | User decides they wish to add to the current list of issues 			| Inspection    | TC006        |
+| 1.1.2           | User is asked by the system to login or register if they are not currently registered | Demonstration | TC006        |
+| 2.0.0           | User needs to regiester						             	| Demonstration | TC007        |
+| 2.1.0           | User is directed to appropriate registration page 					| Test          | TC007        |
+| 2.1.1           | The software asks user if they are a voter or candidate and directs them to the appropriate page to register | Demonstration | TC007        |
+| 2.1.2           | System updates the database with registration information 				|Demonstration	| TC007        |
+
+| 3.0.0           | Candidates Opinion 									| Test          | TC008        |
+| 3.1.0           | Availability to provide their opinion on the top national issues 			| Test          | TC008        |
+| 3.1.1		  | Candidate update their opinion til the day before election  with their voter id	| Test		| TC008	       |
+
+| 4.0.0           | Vote							                        | Demonstration | TC001        |
+| 4.1.0           | The software verifies the user is authorized by checking registration for Voter ID  | Inspection    | TC001        |
+| 4.1.1           | If authorized, access will provide voter with voter form and candidates answers to national issues without candidates name | Test          | TC001, TC003 |
+| 4.1.2           | The system will track each user votes with their voter ID so the voter can verify their submission | Demonstration | TC001, TC003 |
+| 4.1.3           | The system will tally the votes and provide live results to map		        | Demonstration | TC001        |
+
+| 5.0.0           | The Administrator will have access to the database 				        | Demonstration | TC003, TC004 |
+| 5.1.0           | System will log all changes in order to ensure administration actions are ethical   | Test          | TC003, TC004 |
+
+| 6.0.0           | Security									        | Inspection    | TC009        |
+| 6.1.0           | System will eventually use Microsoft Election Guard or implement Secure ID, Fingerprint, Smart Card, and/or Encryption | Demonstration | TC009        |
+| 6.1.1           | System will ensure users browsers are up to date with latest patches and meets software requirements | Inspection    | TC009        |
+| 6.1.2		| System will automatically close browser once user logs off				| Inspection | TC009|
+
 
 ## TESTS TABLE
+(https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Test%20Case%20Table%201.JPG)
 [(back to top)](#table-of-contents)
 
-| Test ID | Requirement ID(s)                        | Test Procedure                                               | Current Status | Time Stamp | Version |
-| ------- | ---------------------------------------- | ------------------------------------------------------------ | -------------- | ---------- | ------- |
-| TC001   | 4.0.0, 4.1.0, 4.1.1, 4.1.2, 4.1.3        | User login w/o having logged in before, taken to signup screen to create  account. Sign out and login with new signup information. | Not Tested     | 3/8/2020   | N/A     |
-| TC002   | 4.1.4, 4.2.0                             | Check system database for list id of a new account creation  | Not Tested     | 3/8/2020   | N/A     |
-| TC003   | 5.0.0, 5.1.0, 5.1.1, 5.1.2, 4.1.2, 4.1.1 | Add new user, click share list, select user that does not already exist | Not Tested     | 3/8/2020   | N/A     |
-| TC004   | 5.0.0, 5.1.1, 5.2.0, 5.3.0, 5.3.1, 5.3.2 | using user from TC003, click share list, select user from TC001, login to  user from TC001 and verify shared list prompt, click approve | Not Tested     | 3/8/2020   | N/A     |
-| TC005   | 1.0.0, 1.1.0                             | Add bread, milk, eggs to an existing users list              | Not Tested     | 3/8/2020   | N/A     |
-| TC006   | 1.1.1, 1.1.2                             | Have administrator look at SQL data base and verify that report can be  pulled by category, and that the list in the application id the same items | Not Tested     | 3/8/2020   | N/A     |
-| TC007   | 2.0.0, 2.1.0, 2.1.1                      | Logged in user can select "Let's go Shopping" and see their  list in an ordered format according to store layout | Not Tested     | 3/8/2020   | N/A     |
-| TC008   | 3.0.0, 3.1.0                             | User can select "map View" and see their items on store map,  matching their physical location in the store | Not Tested     | 3/8/2020   | N/A     |
-| TC009   | 6.0.0, 6.1.0, 6.1.1                      | Administrator adds a new item to database, adds a non-existing item,  verifies that is shows up in the application | Not Tested     | 3/8/2020   | N/A     |
-| TC010   | 7.0.0, 7.1.0, 7.1.1                      | Administrator add a new store and layout to the database, verifies that  store and layout populate in the application | Not Tested     | 3/8/2020   | N/A     |
 
 ## Feature List
 [(back to top)](#table-of-contents)
 
 Additional features that would be welcomed would be:
 
- - Ability to scan bar codes of items and add to list
- - Have different Store maps/information to choose from
- - Integration of Available coupons
- - Recipe Integration
- - Home Pantry Inventory
+ - Encryption
+ - Fingerprint Reader
+ - Smart Cards
+ - Printed Reports
+ - Additional Verification
  
  ## Prototype
  [(back to top)](#table-of-contents)
  
  Details and Demonstration of the prototype can be found here:
  
- [Grab & Go Prototype](https://github.com/cjpleasant88/Grab-Go/tree/master/docs)
+ [Revamp the Vote Prototype](https://www.ivote.online)
