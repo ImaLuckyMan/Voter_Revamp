@@ -81,7 +81,7 @@ To accomplish this task, a few databases would have to be maintained:
 ## USER STORIES
 [(back to top)](#table-of-contents)
 
-<h2> 1) As a Legal Registered Voter over the age of 18 <h2>
+### 1) As a Legal Registered Voter over the age of 18
 I need/want A secure voting system that frees me from the political backlash and media jargon of candidates lying 
 and trying to stab each other in the back in order to win enough votes to possibly be elected for means other than 
 the best interests of the people they represent. I require a secure system that is free from outside influence where 
@@ -92,12 +92,11 @@ whose political views are most in line with their own. So that voters such as my
 will be counted and that I will be safe from oppression. So that I do not have to listen to political campaigns backstabbing 
 each other in the media. So that the hate will stop between voters for their views on their chosen candidates.
 
-<h2> 2) As a Candidate </h2>
+### 2) As a Candidate
 I need/want a system that is secure and accurate, that can be trusted and prevent recount. 
 I need a system with near real time results. 
 I need a system that voters can access from anywhere including our military members stationed overseas. 
 So that accurate results are received in a timely manner and allow for the most votes to be submitted with world-wide secure availability.
-
 
 ## USE CASES
 [(back to top)](#table-of-contents)
@@ -114,7 +113,7 @@ Given an online electronic voting system, a database of current world issues, an
 ## USE CASE DIAGRAM
 [(back to top)](#table-of-contents)
 
-![Use Case Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/UseCaseDiagram.png)
+![Use Case Diagram](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/UseCaseDiagram.PNG)
 
 ## REQUIREMENTS
 [(back to top)](#table-of-contents)
@@ -176,9 +175,9 @@ Given an online electronic voting system, a database of current world issues, an
 
 ## Flow Charts
 [(back to top)]{#table-of-contents)
-![Voter and Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png)
-![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png)
-![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/Vote_Flow_Chart.png)
+![Voter and Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoterCandidateRegistrationFlowChart.png)
+![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/WorldIssuesFlowChart.png)
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/VoteFlowChart.png)
 
 ## WIRE FRAMES
 [(back to top)](#table-of-contents)
@@ -234,7 +233,7 @@ Each voter will be presented with each candidates answers to the National Issues
 
 ## TEST TABLE
 [(back to top)](#table-of-contents)
-![Test Table](/Prototype_Documents/TestCaseTable1.JPG)
+![Test Table](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Prototype/Prototype_Documents/TestCaseTable1.png)
 
 ## Feature List
 [(back to top)](#table-of-contents)
