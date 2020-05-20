@@ -141,7 +141,7 @@ Then are presented with each candidates views on top 15 political issues affecti
 </br>
 
 # Vote Flow Chart
-![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Vote_Flow_Chart.png=20x20)
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Vote_Flow_Chart.PNG=20x20)
 </br>
 
 # Voter Enrollment
