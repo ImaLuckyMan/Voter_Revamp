@@ -73,3 +73,5 @@ Authorized registered Voters will be able to access websites allowing them to li
 <a href="Prototype/README.MD"> Link to Design Documents </a>
 # Wire-frames - Drafts Uploaded to Design Documents
 <a href="Prototype/README.MD"> Link to Design Documents </a>
+# Technologies Used
+C#, SQL, SQL Server, ASP.NET Core MVC, JS, HTML, Azure </br>
