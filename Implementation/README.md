@@ -129,45 +129,49 @@ Then are presented with each candidates views on top 15 political issues affecti
 </br>
 
 # Candidate Registration
-![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Candidate%20Registration.JPG=20x20) 
+![Candidate Registration](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Candidate%20Registration.JPG?=20x20) 
 </br>
 
 # Registrar Database
-![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Registrar%20Database.jpg=20x20)
+![Registrar Database](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Registrar%20Database.jpg=20x20)
 </br>
 
 # Vote Tallying Process
-![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Vote%20Tallying%20Process.jpg=20x20)
+![Vote Tallying Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Vote%20Tallying%20Process.jpg=20x20)
 </br>
 
 # Vote Flow Chart
-![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Vote_Flow_Chart.png=20x20)
+![Vote Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Vote_Flow_Chart.png=20x20)
 </br>
 
 # Voter Enrollment
-![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Voter%20Enrollment.jpg=20x20)
+![Voter Enrollment](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Voter%20Enrollment.jpg=20x20)
 </br>
 
 # Voter Registration Form
-![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Voter%20Registration&20Form.jpg=20x20)
+![Voter Registration Form](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Voter%20Registration&20Form.jpg=20x20)
 </br>
 
 # Voter and Candidate Registration Flow Chart
-![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png=20x20)
+![Voter Candidate Registration Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Voter_Candidate_Registration_Flow_Chart.png=20x20)
 </br>
 
 <h2> Voting Process </h2>
-![Voting Process](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Voting%20Process.png=20x20)</br>
+![Voting Process]
+(https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Voting%20Process.png=20x20)</br>
 
 <h2> World Issues Flow Chart <h2>
-![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/World_Issues_Flow_Chart.png=20x20)</br>
+![World Issues Flow Chart](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/World_Issues_Flow_Chart.png=20x20)</br>
 
 
 <h1 id="5">5. UI Design: Wireframe details </h1>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents//Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Candidate%20Registration.jpg">5. Candidate Registration</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Voter%20Registration%20Form.jpg">6. Voter Registrations</a></br>
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Example%20Ballot.pptx">7. Ballot </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Wire%20Frame%20Layout%20Drafts.pdf">2. WireFrame Diagrams</a></br>
+
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Candidate%20Registration.jpg">5. Candidate Registration</a></br>
+
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Voter%20Registration%20Form.jpg">6. Voter Registrations</a></br>
+
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Example%20Ballot.pptx">7. Ballot </a></br>
 
 <h1 id="6">6. Project Plan:	Product Backlog Items (PBIs) and component design. </h1>
 # Complete 
@@ -186,7 +190,7 @@ Then are presented with each candidates views on top 15 political issues affecti
 <h1 id="10">10. Next steps: </h1>
 
 <h1 id="11">11. Test Report:	Requirements Traceability Matrix (RTM) Every requirement should map to a planned test </h1>
-![Test Case Table 1](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Test%20Case%20Table%201.jpg)
+![Test Case Table 1](https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Test%20Case%20Table%201.jpg)
 
 <h2> Accuracy: </h2>
 I-Vote Revamp uses secure servers and validated voter list. The votes cast cannot be altered or deleted without detection. They are exported from the website to the central register. The site runs over secure encryption and the votes will be transferred in signed packages. Any alteration or deletion during this transfer is detected by the central register. Missing packages are detected as the central register keeps the list of used id's, IP addresses, location, and voting receipts are published. In case some ineligible votes are present in these packages, the central register does not count them because it only counts the votes of the voters listed in the final voter list and pass validity and authenticity checks.
@@ -228,6 +232,6 @@ Licensing costs are reduced by using free software and operating systems. S-Vote
 I-Vote achieves scalability through using a building block (voting kiosk) that can be deployed in various numbers. The major challenge is to provide enough voting kiosks that allow all voters to cast their votes within the limited election period. We estimate that one voting kiosk can serve from 500 to 1,000 voters in a day. This through put can only be achieved through clear and streamlined kiosk user interface. Depending on the electorate size, the election committee has to provide a suitable number of voting
 kiosks distributed over voting centers. Aggregating results of a large election in the central register can be sped up through electronically transferring the ballots exported from the kiosks. There is no need to physically deliver the removable storage containing the ballots package exported from the kiosk because the ballots are encrypted and this package is signed. The large computing load of verifying vote validity and authenticity in large countries is manageable and should be handled through parallel processing.
 
-<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype/Prototype_Documents/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
+<a href="https://github.com/ImaLuckyMan/Voter_Revamp/blob/master/Implementation/Prototype_Documents/Test%20Case%20Table%201.JPG">8. Test Case </a></br>
 
 <h1 id="12">Prototype</h1>
