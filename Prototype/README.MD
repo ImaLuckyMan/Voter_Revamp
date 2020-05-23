@@ -1,5 +1,8 @@
 # Revamp the Vote
 
+## Technologies Used
+C#, SSMS, CSS, HTML, Markup, SQL Database, Visual Studio, Azure, ASP.NET Core MVC, JavaScript, Visio
+
 ## Table of Contents
 
 - [1. Inspiration](#inspiration)
